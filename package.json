@@ -1,0 +1,19 @@
+{
+  "name": "artefakty",
+  "version": "1.0.0",
+  "description": "Official webpage of SKN Artefakty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artefakty/website.git"
+  },
+  "author": "SKN Artefakty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artefakty/website/issues"
+  },
+  "homepage": "https://github.com/artefakty/website#readme"
+}

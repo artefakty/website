@@ -3,6 +3,7 @@ import { FiFacebook, FiInstagram, FiMail, FiMapPin } from "react-icons/fi";
 import logoWithName from '../../assets/icons/logo-with-name.svg';
 import logoUL from '../../assets/icons/logo-ul.svg';
 import logoWFIS from '../../assets/icons/logo-ul-wfis.svg';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -37,10 +38,10 @@ const Footer = () => {
             <div className={styles.section3}>
               <div className={styles.kontakt}>Nawigacja</div>
               <div className={styles.stronaGlownaParent}>
-                <div className={styles.stronaGlowna}>Strona Główna</div>
-                <div className={styles.projekty}>Projekty</div>
-                <div className={styles.projekty}>Wydarzenia</div>
-                <div className={styles.projekty}>Kontakt</div>
+                <Link to="/" className={styles.stronaGlowna}>Strona Główna</Link>
+                <Link to="/projects" className={styles.projekty}>Projekty</Link>
+                <Link to="/events" className={styles.projekty}>Wydarzenia</Link>
+                <Link to="/contact" className={styles.projekty}>Kontakt</Link>
               </div>
             </div>
             <div className={styles.sekcjaSocialMedia}>
@@ -53,7 +54,7 @@ const Footer = () => {
             </div>
           </div>
           <div className={styles.logo2}>
-            <div className={styles.sknArtefakty}>© 2024 SKN Artefakty.</div>
+            <div className={styles.sknArtefakty}>© {new Date().getFullYear()} SKN Artefakty.</div>
           </div>
         </div>
       </div>

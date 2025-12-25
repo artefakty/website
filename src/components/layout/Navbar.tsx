@@ -2,6 +2,9 @@ import styles from '../../styles/Navbar.module.css';
 import { FiFacebook, FiInstagram, FiMail, FiMenu, FiX } from "react-icons/fi";
 import logo from '../../assets/icons/logo-with-name.svg';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
+
+/* TODO: Zrobić te same wielkości ikonek social mediów i odległości te same */
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,13 +22,13 @@ const Navbar = () => {
             </button>
 
             <div className={`${styles.stronaGlownaParent} ${isMenuOpen ? styles.active : ''}`}>
-                <div className={styles.div}>Strona główna</div>
+                <Link to="/" className={styles.div}>Strona główna</Link>
                 <div className={styles.divStatic}>|</div>
-                <div className={styles.div}>Projekty</div>
+                <Link to="/projects" className={styles.div}>Projekty</Link>
                 <div className={styles.divStatic}>|</div>
-                <div className={styles.div}>Wydarzenia</div>
+                <Link to="/events" className={styles.div}>Wydarzenia</Link>
                 <div className={styles.divStatic}>|</div>
-                <div className={styles.div}>Kontakt</div>
+                <Link to="/contact" className={styles.div}>Kontakt</Link>
             </div>
 
             <div className={styles.frameParent}>

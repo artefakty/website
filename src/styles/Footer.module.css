@@ -161,6 +161,12 @@
   	line-height: 130%;
   	display: inline-block;
   	font-weight: 400;
+	text-decoration: none;
+	color: #796d6f;
+	transition: color 0.3s ease;
+}
+.stronaGlowna:hover {
+	color: #fcf8f2;
 }
 .projekty {
   	align-self: stretch;
@@ -168,6 +174,12 @@
   	letter-spacing: 0.02em;
   	line-height: 130%;
   	font-weight: 400;
+	text-decoration: none;
+	color: #796d6f;
+	transition: color 0.3s ease;
+}
+.projekty:hover {
+	color: #fcf8f2;
 }
 .sekcjaSocialMedia {
   	flex: 1;

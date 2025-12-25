@@ -30,6 +30,8 @@
   	position: relative;
   	text-transform: uppercase;
   	font-weight: 600;
+	text-decoration: none;
+	color: #fff;
 }
 .divStatic {
   	position: relative;

@@ -2,31 +2,37 @@
       width: 100%;
       position: relative;
       display: flex;
-      align-items: flex-start;
+      flex-direction: column;
+      align-items: center;
       padding: 80px 64px 0px;
       box-sizing: border-box;
       text-align: center;
-      font-size: 81px;
       color: #231f20;
       font-family: 'Source Sans 3', sans-serif;
 }
-.doczDoNasParent {
-      flex: 1;
+
+.sectionInner {
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       gap: 24px;
 }
-.doczDoNas {
-      width: 836px;
+
+.sectionTitle {
+      width: 100%;
+      max-width: 836px;
       position: relative;
       letter-spacing: -0.06em;
       line-height: 105%;
+      font-size: 81px;
       display: inline-block;
 }
-.frameParent {
-      align-self: stretch;
+
+.sectionMeta {
+      width: 100%;
+      max-width: 1900px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -34,13 +40,10 @@
       gap: 16px;
       font-size: 19px;
       color: #000;
+      box-sizing: border-box;
 }
-.maszDoKodowania {
-      align-self: stretch;
-      position: relative;
-      line-height: 150%;
-}
-.frameChildTitle {
+
+.sectionDivider {
       height: 3px;
       width: 80px;
       position: relative;
@@ -48,6 +51,13 @@
       border: none;
       flex-shrink: 0;
       margin: 0 auto;
+}
+
+.sectionDescription {
+      width: 100%;
+      max-width: 1100px;
+      position: relative;
+      line-height: 160%;
 }
 .kontakt {
       width: 100%;
@@ -299,11 +309,14 @@
 
 @media screen and (max-width: 1200px) {
       .packages {
-          padding: 60px 32px 0px;
-      }
-      .doczDoNas {
-          width: 100%;
-          font-size: 64px;
+              padding: 40px 32px 0px;
+        }
+        .sectionTitle {
+              width: 100%;
+              font-size: 64px;
+        }
+        .sectionMeta {
+              padding: 0px 24px;
       }
       .kontakt {
           padding: 40px 32px 96px;
@@ -319,6 +332,16 @@
 }
 
 @media screen and (max-width: 768px) {
+        .packages {
+              padding: 30px 24px 0px;
+        }
+        .sectionTitle {
+              font-size: 48px;
+        }
+        .sectionMeta {
+              padding: 0px 16px;
+              font-size: 16px;
+        }
       .kontakt {
           padding: 24px 16px 120px;
       }
@@ -351,4 +374,18 @@
           flex-direction: column;
           gap: 12px;
       }
+}
+
+@media screen and (max-width: 480px) {
+        .packages {
+              padding: 20px 16px 0px;
+        }
+        .sectionTitle {
+              font-size: 36px;
+        }
+        .sectionMeta {
+              padding: 0px 8px;
+              font-size: 14px;
+              gap: 12px;
+        }
 }

@@ -14,9 +14,11 @@ const Navbar = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
+    const handleNavClick = () => setIsMenuOpen(false);
+
     return (
         <div className={styles.navbar}>
-            <Link to="/">
+            <Link to="/" onClick={handleNavClick}>
                 <img className={styles.frameIcon} src={logo} alt="Artefakty Logo" />
             </Link>
             <button className={styles.hamburger} onClick={toggleMenu} aria-label="Toggle menu">
@@ -24,19 +26,19 @@ const Navbar = () => {
             </button>
 
             <div className={`${styles.stronaGlownaParent} ${isMenuOpen ? styles.active : ''}`}>
-                <Link to="/" className={styles.div}>Strona główna</Link>
+                <Link to="/" className={styles.div} onClick={handleNavClick}>Strona główna</Link>
                 <div className={styles.divStatic}>|</div>
-                <Link to="/projects" className={styles.div}>Projekty</Link>
+                <Link to="/projects" className={styles.div} onClick={handleNavClick}>Projekty</Link>
                 <div className={styles.divStatic}>|</div>
-                <Link to="/events" className={styles.div}>Wydarzenia</Link>
+                <Link to="/events" className={styles.div} onClick={handleNavClick}>Wydarzenia</Link>
                 <div className={styles.divStatic}>|</div>
-                <Link to="/contact" className={styles.div}>Kontakt</Link>
+                <Link to="/contact" className={styles.div} onClick={handleNavClick}>Kontakt</Link>
             </div>
 
-            <div className={styles.frameParent}>
-                <a href="https://www.facebook.com"><FiFacebook className={styles.frameIcon2} /></a>
-                <a href="https://www.instagram.com/skn.artefakty/"><FiInstagram className={styles.frameIcon2} /></a>
-                <a href="https://discord.gg/2UvEkYtsSx"><FaDiscord className={styles.frameIcon2} /></a>
+            <div className={`${styles.frameParent} ${isMenuOpen ? styles.active : ''}`}>
+                <a href="https://www.facebook.com" onClick={handleNavClick}><FiFacebook className={styles.frameIcon2} /></a>
+                <a href="https://www.instagram.com/skn.artefakty/" onClick={handleNavClick}><FiInstagram className={styles.frameIcon2} /></a>
+                <a href="https://discord.gg/2UvEkYtsSx" onClick={handleNavClick}><FaDiscord className={styles.frameIcon2} /></a>
             </div>
         </div>
     )

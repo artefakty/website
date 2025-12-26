@@ -1,55 +1,64 @@
 /* Events.tsx */
 .packages {
-  	width: 100%;
-  	position: relative;
-  	display: flex;
-    flex-direction: column;
-  	align-items: center;
-  	padding: 80px 64px 80px;
-  	box-sizing: border-box;
-  	text-align: center;
-  	font-size: 81px;
-  	color: #231f20;
-  	font-family: 'Source Sans 3', sans-serif;
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 80px 64px 0px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #231f20;
+	font-family: 'Source Sans 3', sans-serif;
 }
-.wydarzeniaParent {
-  	flex: 1;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-  	justify-content: center;
-  	gap: 24px;
+
+.sectionInner {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 24px;
 }
-.wydarzenia {
-  	max-width: 836px;
-  	position: relative;
-  	letter-spacing: -0.06em;
-  	line-height: 105%;
-  	display: inline-block;
+
+.sectionTitle {
+	width: 100%;
+	max-width: 836px;
+	position: relative;
+	letter-spacing: -0.06em;
+	line-height: 105%;
+	font-size: 81px;
+	display: inline-block;
 }
-.frameParent {
-  	align-self: stretch;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-  	padding: 0px 40px;
-  	gap: 16px;
-  	font-size: 19px;
-  	color: #000;
+
+.sectionMeta {
+	width: 100%;
+	max-width: 1900px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px 40px;
+	gap: 16px;
+	font-size: 19px;
+	color: #000;
+	box-sizing: border-box;
 }
-.frameChildTitle {
-  	height: 3px;
-  	width: 80px;
-  	position: relative;
-  	background-color: #ce181e;
-  	border: none;
-  	flex-shrink: 0;
-  	margin: 0 auto;
+
+.sectionDivider {
+	height: 3px;
+	width: 80px;
+	position: relative;
+	background-color: #ce181e;
+	border: none;
+	flex-shrink: 0;
+	margin: 0 auto;
 }
-.warsztatySpotkaniaNa {
-  	align-self: stretch;
-  	position: relative;
-  	line-height: 150%;
+
+.sectionDescription {
+	width: 100%;
+	max-width: 1100px;
+	position: relative;
+	line-height: 160%;
 }
 
 
@@ -212,14 +221,12 @@
 
 @media screen and (max-width: 1200px) {
 	.packages {
-		padding: 40px 32px 80px;
+		padding: 40px 32px 0px;
 	}
-	.wydarzenia {
-		width: 100%;
-		max-width: 700px;
+	.sectionTitle {
 		font-size: 64px;
 	}
-	.frameParent {
+	.sectionMeta {
 		padding: 0px 24px;
 	}
 	.event {
@@ -230,14 +237,13 @@
 
 @media screen and (max-width: 768px) {
 	.packages {
-		padding: 30px 24px 80px;
-		font-size: 48px;
+		padding: 30px 24px 0px;
 	}
-	.wydarzenia {
+	.sectionTitle {
 		font-size: 48px;
 		max-width: 100%;
 	}
-	.frameParent {
+	.sectionMeta {
 		padding: 0px 16px;
 		font-size: 16px;
 	}
@@ -284,13 +290,12 @@
 
 @media screen and (max-width: 480px) {
 	.packages {
-		padding: 20px 16px 80px;
+		padding: 20px 16px 0px;
+	}
+	.sectionTitle {
 		font-size: 36px;
 	}
-	.wydarzenia {
-		font-size: 36px;
-	}
-	.frameParent {
+	.sectionMeta {
 		padding: 0px 8px;
 		font-size: 14px;
 		gap: 12px;

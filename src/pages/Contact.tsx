@@ -9,11 +9,11 @@ const Contact = () => {
   return (
     <>
       <div className={styles.packages}>
-        <div className={styles.doczDoNasParent}>
-          <b className={styles.doczDoNas}>Dołącz do nas!</b>
-          <div className={styles.frameParent}>
-            <div className={styles.frameChildTitle}></div>
-            <div className={styles.maszDoKodowania}>
+        <div className={styles.sectionInner}>
+          <b className={styles.sectionTitle}>Dołącz do nas!</b>
+          <div className={styles.sectionMeta}>
+            <div className={styles.sectionDivider}></div>
+            <div className={styles.sectionDescription}>
               Masz dość kodowania do szuflady? Nie szukamy ekspertów, szukamy pasjonatów. 
               Nieważne, czy dopiero zaczynasz przygodę z GameDevem, czy masz już portfolio – 
               wpadnij, naucz się czegoś nowego i twórz gry razem z nami!

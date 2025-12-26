@@ -7,15 +7,15 @@ import EventCard from '../components/events/EventCard';
 const Events = () => {
   return (
     <>
-    <div className={styles.packages}>
-      <div className={styles.wydarzeniaParent}>
-        <b className={styles.wydarzenia}>Wydarzenia</b>
-        <div className={styles.frameParent}>
-          <div className={styles.frameChildTitle}></div>
-          <div className={styles.warsztatySpotkaniaNa}>Warsztaty, spotkania na uczelni oraz integracja. Wszystko, co musisz wiedzieć o naszych nadchodzących wydarzeniach i nowinkach z social mediów, znajdziesz właśnie w tym miejscu.</div>
+      <div className={styles.packages}>
+        <div className={styles.sectionInner}>
+          <b className={styles.sectionTitle}>Wydarzenia</b>
+          <div className={styles.sectionMeta}>
+            <div className={styles.sectionDivider}></div>
+            <div className={styles.sectionDescription}>Warsztaty, spotkania na uczelni oraz integracja. Wszystko, co musisz wiedzieć o naszych nadchodzących wydarzeniach i nowinkach z social mediów, znajdziesz właśnie w tym miejscu.</div>
+          </div>
         </div>
       </div>
-    </div>
     <div className={styles.packages}>
       <EventCard
         image="/path/to/image.jpg"

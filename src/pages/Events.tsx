@@ -1,6 +1,7 @@
-import React from 'react';
-import styles from '../styles/Events.module.css';
-import EventCard from '../components/events/EventCard';
+import React from 'react'
+import styles from '../styles/Events.module.css'
+import EventCard from '../components/events/EventCard'
+import { events } from '../data/events'
 
 /* TODO: Poprawić readMoreLink tzn. albo ładować dynamicznie w komponencie, albo dodawać nową stronę */
 
@@ -16,29 +17,24 @@ const Events = () => {
           </div>
         </div>
       </div>
-    <div className={styles.packages}>
-      <EventCard
-        image="/path/to/image.jpg"
-        title="Aktualizacja Artefaktów"
-        description="Opis wydarzenia..."
-        date="04/12/2025"
-        calendar={true}
-        startDate="2025-12-04"
-        endDate="2025-12-04"
-        startTime="18:00"
-        endTime="20:00"
-        location="Wydział Fizyki i Informatyki Stosowanej Uniwersytetu Łódzkiego, Pomorska 149/153, 90-236 Łódź, Polska"
-        readMoreLink="/events/1"
-      />
-      <EventCard
-        image="/path/to/image.jpg"
-        title="Aktualizacja Artefaktów"
-        description="Opis wydarzenia..."
-        date="04/12/2025"
-        readMoreLink="/events/1"
-        calendar={false}
-      />
-    </div>
+      <div className={styles.packages}>
+        {events.map((event) => (
+          <EventCard
+            key={event.id}
+            image={event.image}
+            title={event.title}
+            description={event.description}
+            date={event.date}
+            location={event.place}
+            readMoreLink={`/events/${event.id}`}
+            calendar={!!event.calendar}
+            startDate={event.startDate}
+            endDate={event.endDate}
+            startTime={event.startTime}
+            endTime={event.endTime}
+          />
+        ))}
+      </div>
     </>
   )
 }

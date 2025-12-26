@@ -34,7 +34,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className={styles.sectionZarzd}>
+      <section className={styles.boardSection}>
         <MentorCard />
       </section>
 
@@ -114,31 +114,31 @@ const Home = () => {
         </div>
       </section>
 
-      <section className={styles.sectionGdzieNasZnale}>
-        <div className={styles.mapka}>
-          <div className={styles.frameGroup}>
-            <div className={styles.gdzieNasZnaleParent}>
-              <h2 className={styles.gdzieNasZnale}>Gdzie nas znaleźć?</h2>
-              <span className={styles.vectorIcon} aria-hidden="true" />
+      <section className={styles.findUsSection}>
+        <div className={styles.mapCard}>
+          <div className={styles.mapInfoPanel}>
+            <div className={styles.findUsHeader}>
+              <h2 className={styles.findUsTitle}>Gdzie nas znaleźć?</h2>
+              <span className={styles.accentLine} aria-hidden="true" />
             </div>
-            <div className={styles.stacjonujemyNaCoDzieWBudParent}>
-              <p className={styles.stacjonujemyNaCo}>
+            <div className={styles.locationDetails}>
+              <p className={styles.locationParagraph}>
                 Stacjonujemy na co dzień w budynku Wydziału Fizyki i Informatyki Stosowanej Uniwersytetu Łódzkiego.
               </p>
-              <p className={styles.stacjonujemyNaCo}>
+              <p className={styles.locationParagraph}>
                 To właśnie tutaj odbywają się nasze regularne spotkania, warsztaty i wspólne prace nad projektami.
               </p>
             </div>
-            <div className={styles.vectorParent}>
-              <span className={styles.vectorIcon} aria-hidden="true" />
+            <div className={styles.addressGroup}>
+              <span className={styles.accentLine} aria-hidden="true" />
               <div className={styles.frameContainer}>
                 <FiMapPin className={styles.addressDot}  />
-                <span className={styles.ulPomorska149153}>ul. Pomorska 149/153, 90-236 Łódź</span>
+                <span className={styles.addressText}>ul. Pomorska 149/153, 90-236 Łódź</span>
               </div>
-              <span className={styles.vectorIcon} aria-hidden="true" />
+              <span className={styles.accentLine} aria-hidden="true" />
             </div>
           </div>
-          <div className={styles.mapkaInner}>
+          <div className={styles.mapEmbed}>
             <iframe
               title="Mapa dojazdu"
               className={styles.mapFrame}

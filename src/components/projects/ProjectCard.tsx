@@ -41,15 +41,15 @@ const ProjectCard = ({ image, title, description, status, genre, authors, projec
             <div className={styles.mirrorDashParent}>
                 <b className={styles.mirrorDash}>{title}</b>
                 <img className={styles.frameInner} alt="" />
-                <div className={styles.graZostaaStworzona}>{description}</div>
+                <div className={styles.projectDescription}>{description}</div>
                 <img className={styles.frameInner} alt="" />
-                {date && <div className={styles.dataProjektu11122024}>Data projektu: {date}</div>}
+                {date && <div className={styles.projectDate}>Data projektu: {date}</div>}
                 {date && <img className={styles.frameInner} alt="" />}
 
                 <div className={styles.frameGroup}>
                     {statusTags.map((tag, idx) => (
-                        <div className={styles.graZGameJamuWrapper} key={`status-${idx}`}>
-                            <b className={styles.graZGame}>{tag}</b>
+                        <div className={styles.statusTag} key={`status-${idx}`}>
+                            <b className={styles.tagLabel}>{tag}</b>
                         </div>
                     ))}
                 </div>
@@ -58,8 +58,8 @@ const ProjectCard = ({ image, title, description, status, genre, authors, projec
 
                 <div className={styles.frameWrapper}>
                     {genreTags.map((tag, idx) => (
-                        <div className={styles.racingWrapper} key={`genre-${idx}`}>
-                            <b className={styles.graZGame}>{tag}</b>
+                        <div className={styles.genreTag} key={`genre-${idx}`}>
+                            <b className={styles.tagLabel}>{tag}</b>
                         </div>
                     ))}
                 </div>
@@ -74,7 +74,7 @@ const ProjectCard = ({ image, title, description, status, genre, authors, projec
                         aria-expanded={showAuthors}
                     >
                         <TbDeviceGamepad3Filled className={styles.deviceGamepad3Icon} />
-                        <div className={styles.autorzy}>AUTORZY ({authorList.length})</div>
+                        <div className={styles.authorsLabel}>AUTORZY ({authorList.length})</div>
                         <TbChevronCompactDown className={`${styles.chevronCompactDown1Icon} ${showAuthors ? styles.chevronOpen : ''}`} />
                     </button>
                     {showAuthors && authorList.length > 0 && (
@@ -92,12 +92,12 @@ const ProjectCard = ({ image, title, description, status, genre, authors, projec
 
             <div className={styles.projectInner}>
                 {isWip ? (
-                    <div className={`${styles.zagrajWrapper} ${styles.wipButton}`}>
-                        <div className={styles.zagraj}>PROJEKT W FAZIE ROZWOJU</div>
+                    <div className={`${styles.playButton} ${styles.wipButton}`}>
+                        <div className={styles.playLabel}>PROJEKT W FAZIE ROZWOJU</div>
                     </div>
                 ) : (
-                    <a className={styles.zagrajWrapper} href={projectLink} target="_blank" rel="noopener noreferrer">
-                        <div className={styles.zagraj}>ZAGRAJ</div>
+                    <a className={styles.playButton} href={projectLink} target="_blank" rel="noopener noreferrer">
+                        <div className={styles.playLabel}>ZAGRAJ</div>
                     </a>
                 )}
             </div>

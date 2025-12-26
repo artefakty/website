@@ -1,68 +1,75 @@
 .navbar {
-   	width: 100%;
-   	height: 96px;
-   	position: sticky;
-   	top: 0;
-   	z-index: 2000;
-   	background-color: #231f20;
-   	overflow: hidden;
-   	flex-shrink: 0;
-   	display: flex;
-   	align-items: center;
-   	justify-content: space-between;
-   	padding: 10px 40px;
-   	box-sizing: border-box;
-   	gap: 20px;
-   	text-align: left;
-   	font-size: 16px;
-   	color: #fff;
-   	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	height: 96px;
+	position: sticky;
+	top: 0;
+	z-index: 2000;
+	background-color: #231f20;
+	overflow: hidden;
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 40px;
+	box-sizing: border-box;
+	gap: 20px;
+	text-align: left;
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
 }
-.frameIcon {
-  	height: 56px;
-  	width: 148px;
-  	position: relative;
+
+.brandLogo {
+	height: 56px;
+	width: 148px;
+	position: relative;
 }
-.stronaGlownaParent {
-  	display: flex;
-  	align-items: center;
-  	gap: 16px;
+
+.navLinks {
+	display: flex;
+	align-items: center;
+	gap: 16px;
 }
-.div {
-  	position: relative;
-  	text-transform: uppercase;
-  	font-weight: 600;
+
+.navLink {
+	position: relative;
+	text-transform: uppercase;
+	font-weight: 600;
 	text-decoration: none;
 	color: #fff;
 }
-.divStatic {
-  	position: relative;
-  	text-transform: uppercase;
-  	font-weight: 600;
+
+.navSeparator {
+	position: relative;
+	text-transform: uppercase;
+	font-weight: 600;
 	color: #fff;
 	cursor: default;
 }
-.div:hover {
+
+.navLink:hover {
 	color: #ce181e;
 	animation-duration: 0.3s;
 	animation-name: hoverEffect;
 	animation-fill-mode: forwards;
 	cursor: pointer;
 }
-.frameParent {
-  	display: flex;
-  	align-items: center;
-  	gap: 8px;
+
+.socialLinks {
+	display: flex;
+	align-items: center;
+	gap: 8px;
 }
-.frameIcon2 {
-  	height: 24px;
-  	width: 24px;
-  	position: relative;
+
+.socialIcon {
+	height: 24px;
+	width: 24px;
+	position: relative;
 	text-decoration: none;
 	color: #fff;
 }
 
-.frameIcon2:hover {
+.socialIcon:hover {
 	color: #ce181e;
 	animation-duration: 0.3s;
 	animation-name: hoverEffect;
@@ -105,12 +112,12 @@
 		display: block;
 	}
 
-	.frameIcon {
+	.brandLogo {
 		height: 56px;
 		width: 148px;
 	}
 
-	.stronaGlownaParent {
+	.navLinks {
 		position: fixed;
 		top: 72px;
 		left: -100%;
@@ -125,15 +132,15 @@
 		z-index: 1000;
 	}
 
-	.stronaGlownaParent.active {
+	.navLinks.active {
 		left: 0;
 	}
 
-	.divStatic {
+	.navSeparator {
 		display: none;
 	}
 
-	.frameParent {
+	.socialLinks {
 		position: fixed;
 		bottom: 40px;
 		left: -100%;
@@ -146,16 +153,16 @@
 		z-index: 1000;
 	}
 
-	.frameParent.active {
+	.socialLinks.active {
 		left: 0;
 	}
 
-	.frameIcon2 {
+	.socialIcon {
 		height: 32px;
 		width: 32px;
 	}
 
-	.div {
+	.navLink {
 		font-size: 20px;
 		width: 100%;
 		text-align: center;

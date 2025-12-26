@@ -4,7 +4,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 80px 64px 0px;
+	padding: 80px 64px 0;
 	box-sizing: border-box;
 	text-align: center;
 	color: #231f20;
@@ -36,7 +36,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 0px 40px;
+	padding: 0 40px;
 	gap: 16px;
 	font-size: 19px;
 	color: #000;
@@ -69,24 +69,24 @@
 }
 
 .project {
-  	width: 100%;
-  	position: relative;
-  	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-  	border-radius: 15px;
-  	background-color: #fff;
+	width: 100%;
+	position: relative;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+	background-color: #fff;
 	overflow: visible;
-  	flex-shrink: 0;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-  	padding: 0px 0px 20px;
-  	box-sizing: border-box;
-  	gap: 20px;
-  	min-height: 300px;
-  	text-align: left;
-  	font-size: 12px;
-  	color: #231f20;
-  	font-family: 'Source Sans 3', sans-serif;
+	flex-shrink: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 0 20px;
+	box-sizing: border-box;
+	gap: 20px;
+	min-height: 300px;
+	text-align: left;
+	font-size: 12px;
+	color: #231f20;
+	font-family: 'Source Sans 3', sans-serif;
 }
 .frameParent {
 	width: 100%;
@@ -97,25 +97,25 @@
 .frameChild {
 	width: 100%;
 	height: 220px;
-  	position: relative;
+	position: relative;
 	object-fit: cover;
 }
 .frameItem {
 	width: 100%;
 	height: 12px;
-  	position: relative;
-  	background-color: #a51318;
-  	overflow: hidden;
-  	flex-shrink: 0;
+	position: relative;
+	background-color: #a51318;
+	overflow: hidden;
+	flex-shrink: 0;
 }
 .mirrorDashParent {
-  	align-self: stretch;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	padding: 0px 20px;
-  	gap: 10px;
-  	position: relative;
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0 20px;
+	gap: 10px;
+	position: relative;
 }
 .mirrorDash {
   	position: relative;
@@ -131,50 +131,50 @@
 	border: none;
 	flex-shrink: 0;
 }
-.graZostaaStworzona {
-  	align-self: stretch;
-  	position: relative;
-  	font-size: 14px;
-  	letter-spacing: 0.02em;
-  	line-height: 130%;
-  	color: #0e0c0d;
-  	text-align: justify;
-  	display: -webkit-inline-box;
-  	overflow: hidden;
-  	text-overflow: ellipsis;
+.projectDescription {
+	align-self: stretch;
+	position: relative;
+	font-size: 14px;
+	letter-spacing: 0.02em;
+	line-height: 130%;
+	color: #0e0c0d;
+	text-align: justify;
+	display: -webkit-inline-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
 	-webkit-line-clamp: 4;
-  	-webkit-box-orient: vertical;
+	-webkit-box-orient: vertical;
 }
-.dataProjektu11122024 {
-  	align-self: stretch;
-  	height: 18px;
-  	position: relative;
-  	letter-spacing: 0.02em;
-  	line-height: 140%;
-  	color: #a4825b;
-  	display: inline-block;
-  	flex-shrink: 0;
+.projectDate {
+	align-self: stretch;
+	height: 18px;
+	position: relative;
+	letter-spacing: 0.02em;
+	line-height: 140%;
+	color: #a4825b;
+	display: inline-block;
+	flex-shrink: 0;
 }
 .frameGroup {
-  	align-self: stretch;
-  	display: flex;
+	align-self: stretch;
+	display: flex;
 	align-items: center;
 	gap: 8px;
 	flex-wrap: wrap;
-  	color: #fff;
+	color: #fff;
 }
-.graZGameJamuWrapper {
-  	border-radius: 7px;
-  	background-color: #cdb161;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-  	justify-content: center;
-  	padding: 4px 8px;
-  	box-sizing: border-box;
-  	min-width: 50px;
+.statusTag {
+	border-radius: 7px;
+	background-color: #cdb161;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 4px 8px;
+	box-sizing: border-box;
+	min-width: 50px;
 }
-.graZGame {
+.tagLabel {
   	position: relative;
   	letter-spacing: 0.1em;
   	text-transform: uppercase;
@@ -189,19 +189,19 @@
 	gap: 8px;
 	flex-wrap: wrap;
 }
-.racingWrapper {
-  	border-radius: 7px;
+.genreTag {
+	border-radius: 7px;
 	background-color: #4e4648;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-  	justify-content: center;
-  	padding: 4px 8px;
-  	box-sizing: border-box;
-  	min-width: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 4px 8px;
+	box-sizing: border-box;
+	min-width: 50px;
 }
 .deviceGamepad3Parent {
-  	align-self: stretch;
+	align-self: stretch;
 	width: 100%;
 	display: grid;
 	grid-template-columns: auto 1fr auto;
@@ -215,21 +215,21 @@
 	color: inherit;
 }
 .deviceGamepad3Icon {
-  	height: 16px;
-  	width: 16px;
-  	position: relative;
-    color: #ce181e;
+	height: 16px;
+	width: 16px;
+	position: relative;
+	color: #ce181e;
 }
-.autorzy {
-  	position: relative;
-  	letter-spacing: 0.02em;
-  	line-height: 130%;
-    text-align: left;
+.authorsLabel {
+	position: relative;
+	letter-spacing: 0.02em;
+	line-height: 130%;
+	text-align: left;
 }
 .chevronCompactDown1Icon {
-  	height: 18px;
-  	width: 18px;
-  	position: relative;
+	height: 18px;
+	width: 18px;
+	position: relative;
 }
 .chevronOpen {
 	transform: rotate(180deg);
@@ -238,6 +238,7 @@
 	position: relative;
 	width: 100%;
 }
+
 .authorsList {
 	position: absolute;
 	left: 0;
@@ -257,45 +258,47 @@
 	overflow-y: auto;
 	z-index: 5;
 }
+
 .authorItem {
 	padding: 2px 0;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
+
 .authorItem:last-child {
 	border-bottom: none;
 }
 .projectInner {
-  	align-self: stretch;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	padding: 0px 20px;
-  	font-size: 16px;
-  	color: #fff;
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0 20px;
+	font-size: 16px;
+	color: #fff;
 }
-.zagrajWrapper {
-  	align-self: stretch;
-  	border-radius: 7px;
-  	background-color: #ce181e;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-  	justify-content: center;
-  	padding: 5px 30px;
+.playButton {
+	align-self: stretch;
+	border-radius: 7px;
+	background-color: #ce181e;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 30px;
 	text-decoration: none;
 	transition: background-color 0.2s ease;
 	color: #fff;
 }
-.zagraj {
-  	position: relative;
-  	letter-spacing: -0.01em;
-  	font-weight: 500;
-  	overflow: hidden;
-  	text-overflow: ellipsis;
-  	white-space: nowrap;
+.playLabel {
+	position: relative;
+	letter-spacing: -0.01em;
+	font-weight: 500;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
-.zagrajWrapper:hover {
+.playButton:hover {
 	background-color: #b21519;
 }
 
@@ -314,50 +317,56 @@
 		grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 		gap: 16px;
 	}
+
 	.frameChild {
 		height: 200px;
 	}
 }
 
-
-
 @media screen and (max-width: 1200px) {
 	.packages {
-		padding: 40px 32px 0px;
+		padding: 40px 32px 0;
 	}
+
 	.sectionTitle {
 		font-size: 64px;
 	}
+
 	.sectionMeta {
-		padding: 0px 24px;
+		padding: 0 24px;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.packages {
-		padding: 30px 24px 0px;
+		padding: 30px 24px 0;
 	}
+
 	.sectionTitle {
 		font-size: 48px;
 	}
+
 	.sectionMeta {
-		padding: 0px 16px;
+		padding: 0 16px;
 		font-size: 16px;
 	}
 }
 
 @media screen and (max-width: 480px) {
 	.packages {
-		padding: 20px 16px 0px;
+		padding: 20px 16px 0;
 	}
+
 	.sectionTitle {
 		font-size: 36px;
 	}
+
 	.sectionMeta {
-		padding: 0px 8px;
+		padding: 0 8px;
 		font-size: 14px;
 		gap: 12px;
 	}
+
 	.sectionDescription {
 		line-height: 150%;
 	}

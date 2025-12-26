@@ -21,87 +21,87 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className={styles.kontakt}>
-        <div className={styles.frameParent}>
-          <div className={styles.kontaktParent}>
-            <div className={styles.kontakt2}>Kontakt</div>
-            <div className={styles.frameChild}></div>
-            <i className={styles.chceszPogadaO}>
+      <div className={styles.contactSection}>
+        <div className={styles.contactGrid}>
+          <div className={styles.contactIntro}>
+            <div className={styles.contactHeading}>Kontakt</div>
+            <div className={styles.headingDivider}></div>
+            <i className={styles.introText}>
               Chcesz pogadać o gamedevie lub masz szybkie pytanie? Wbijaj na naszego Discorda! 
               W sprawach bardziej oficjalnych jesteśmy dostępni pod mailem. Staramy się odpisywać 
               tak szybko, jak tylko pozwalają na to zajęcia na uczelni.
             </i>
-            <div className={styles.frameItem}></div>
-            <div className={styles.frameWrapper}>
-              <div className={styles.frameGroup}>
-                <FiMail className={styles.frameIcon} />
-                <a href="mailto:artefakty@fis.uni.lodz.pl" className={styles.artefaktyfisunilodzpl}>
+            <div className={styles.mutedDivider}></div>
+            <div className={styles.emailWrapper}>
+              <div className={styles.emailRow}>
+                <FiMail className={styles.contactIcon} />
+                <a href="mailto:artefakty@fis.uni.lodz.pl" className={styles.contactEmail}>
                   artefakty@fis.uni.lodz.pl
                 </a>
               </div>
             </div>
-            <div className={styles.frameItem}></div>
-            <div className={styles.frameContainer}>
-              <div className={styles.wpadnijNaNaszeSocialMediaWrapper}>
-                <b className={styles.wpadnijNaNasze}>Wpadnij na nasze social media</b>
+            <div className={styles.mutedDivider}></div>
+            <div className={styles.socialBlock}>
+              <div className={styles.socialHeadingWrapper}>
+                <b className={styles.socialHeading}>Wpadnij na nasze social media</b>
               </div>
               <div className={styles.socialMediaIcons}>
                 <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                  <FiFacebook className={styles.frameChild2} />
+                  <FiFacebook className={styles.socialIcon} />
                 </a>
                 <a href="https://www.instagram.com/skn.artefakty/" target="_blank" rel="noopener noreferrer">
-                  <FiInstagram className={styles.frameChild2} />
+                  <FiInstagram className={styles.socialIcon} />
                 </a>
                 <a href="https://discord.gg/2UvEkYtsSx" target="_blank" rel="noopener noreferrer">
-                  <FaDiscord className={styles.frameChild2} />
+                  <FaDiscord className={styles.socialIcon} />
                 </a>
               </div>
             </div>
           </div>
-          <div className={styles.frameWrapper2}>
-            <div className={styles.wypenijFormularzIDoczDoParent}>
-              <b className={styles.wypenijFormularzI}>wypełnij formularz i dołącz do naszego koła!</b>
-              <form className={styles.frameParent2}>
-                <div className={styles.frameParent3}>
-                  <div className={styles.imiParent}>
-                    <label className={styles.imi}>Imię</label>
+          <div className={styles.formCard}>
+            <div className={styles.formContent}>
+              <b className={styles.formTitle}>wypełnij formularz i dołącz do naszego koła!</b>
+              <form className={styles.formFields}>
+                <div className={styles.fieldRow}>
+                  <div className={styles.fieldGroup}>
+                    <label className={styles.fieldLabel}>Imię</label>
                     <input type="text" className={styles.inputField} placeholder="Wypełnij pole" />
                   </div>
-                  <div className={styles.imiParent}>
-                    <label className={styles.imi}>Nazwisko</label>
+                  <div className={styles.fieldGroup}>
+                    <label className={styles.fieldLabel}>Nazwisko</label>
                     <input type="text" className={styles.inputField} placeholder="Wypełnij pole" />
                   </div>
                 </div>
-                <div className={styles.frameParent3}>
-                  <div className={styles.imiParent}>
-                    <label className={styles.imi}>E-mail z uczelni</label>
+                <div className={styles.fieldRow}>
+                  <div className={styles.fieldGroup}>
+                    <label className={styles.fieldLabel}>E-mail z uczelni</label>
                     <input type="email" className={styles.inputField} placeholder="Wypełnij pole" />
                   </div>
-                  <div className={styles.imiParent}>
-                    <label className={styles.imi}>Numer albumu</label>
+                  <div className={styles.fieldGroup}>
+                    <label className={styles.fieldLabel}>Numer albumu</label>
                     <input type="text" className={styles.inputField} placeholder="Wypełnij pole" />
                   </div>
                 </div>
-                <div className={styles.frameParent3}>
-                  <div className={styles.imiParent}>
-                    <label className={styles.imi}>Wydział</label>
+                <div className={styles.fieldRow}>
+                  <div className={styles.fieldGroup}>
+                    <label className={styles.fieldLabel}>Wydział</label>
                     <input type="text" className={styles.inputField} placeholder="Wypełnij pole" />
                   </div>
-                  <div className={styles.imiParent}>
-                    <label className={styles.imi}>Kierunek</label>
+                  <div className={styles.fieldGroup}>
+                    <label className={styles.fieldLabel}>Kierunek</label>
                     <input type="text" className={styles.inputField} placeholder="Wypełnij pole" />
                   </div>
                 </div>
-                <div className={styles.eMailZUczelniParent}>
-                  <label className={styles.imi}>Typ studiów</label>
+                <div className={styles.selectGroup}>
+                  <label className={styles.fieldLabel}>Typ studiów</label>
                   <select className={styles.selectField}>
                     <option value="">Wybierz</option>
                     <option value="stacjonarne">Stacjonarne</option>
                     <option value="niestacjonarne">Niestacjonarne</option>
                   </select>
                 </div>
-                <button type="submit" className={styles.przelijWrapper}>
-                  <div className={styles.przelij}>Prześlij</div>
+                <button type="submit" className={styles.submitButton}>
+                  <div className={styles.submitLabel}>Prześlij</div>
                 </button>
               </form>
             </div>

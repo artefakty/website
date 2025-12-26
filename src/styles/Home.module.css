@@ -1,103 +1,114 @@
 .heroSectionContent {
-  	width: 100%;
-  	position: relative;
-  	background-color: #231f20;
-  	overflow: hidden;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-  	padding: 64px 80px;
-  	box-sizing: border-box;
-  	text-align: left;
-  	font-size: 95px;
-  	color: #fff;
-  	font-family: 'Source Sans 3', sans-serif;
+	width: 100%;
+	position: relative;
+	background-color: #231f20;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 64px 80px;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 95px;
+	color: #fff;
+	font-family: 'Source Sans 3', sans-serif;
 }
+
 .content {
-  	width: 1200px;
-  	display: flex;
-  	align-items: center;
-  	justify-content: space-between;
-  	padding: 0px 80px;
-  	box-sizing: border-box;
-  	gap: 20px;
-  	flex-shrink: 0;
+	width: 1200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 80px;
+	box-sizing: border-box;
+	gap: 20px;
+	flex-shrink: 0;
 }
+
 .leftSide {
-  	width: 669px;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	justify-content: center;
-  	gap: 40px;
+	width: 669px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 40px;
 }
+
 .text {
-  	align-self: stretch;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	gap: 40px;
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 40px;
 }
+
 .title {
-  	align-self: stretch;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
-.studenckieKooNaukowe {
-  	align-self: stretch;
-  	position: relative;
-  	letter-spacing: -0.05em;
-  	line-height: 88%;
+
+.heroTitle {
+	align-self: stretch;
+	position: relative;
+	letter-spacing: -0.05em;
+	line-height: 88%;
 }
-.zrzeszamyOsobyZainteresowane {
-  	align-self: stretch;
-  	height: 36px;
-  	position: relative;
-  	font-size: 25px;
-  	letter-spacing: -0.02em;
-  	line-height: 140%;
-  	font-family: Poppins, sans-serif;
-  	color: #f1dabf;
-  	display: inline-block;
-  	flex-shrink: 0;
+
+.heroSubtitle {
+	align-self: stretch;
+	height: 36px;
+	position: relative;
+	font-size: 25px;
+	letter-spacing: -0.02em;
+	line-height: 140%;
+	font-family: Poppins, sans-serif;
+	color: #f1dabf;
+	display: inline-block;
+	flex-shrink: 0;
 }
+
 .buttons {
-  	display: flex;
-  	align-items: center;
-  	gap: 20px;
-  	font-size: 16px;
-  	color: #231f20;
-  	font-family: Poppins;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	font-size: 16px;
+	color: #231f20;
+	font-family: Poppins, sans-serif;
 }
-.projektyWrapper {
-  	background-color: #ce181e;
-  	overflow: hidden;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	padding: 16px 24px;
-    text-decoration: none;
-    color: #231f20;
+
+.projectsButton {
+	background-color: #ce181e;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 16px 24px;
+	text-decoration: none;
+	color: #231f20;
 }
-.projekty {
-  	position: relative;
-  	letter-spacing: -0.01em;
-  	font-weight: 500;
+
+.buttonLabel {
+	position: relative;
+	letter-spacing: -0.01em;
+	font-weight: 500;
 }
-.wydarzeniaWrapper {
-  	border: 1px solid #f1dabf;
-  	overflow: hidden;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	padding: 16px 24px;
-  	color: #f1dabf;
-    text-decoration: none;
+
+.eventsButton {
+	border: 1px solid #f1dabf;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 16px 24px;
+	color: #f1dabf;
+	text-decoration: none;
 }
+
 .rightSideIcon {
-  	height: 487px;
-  	width: 318.2px;
+	height: 487px;
+	width: 318.2px;
 }
 
 
@@ -207,39 +218,6 @@
 	text-align: center;
 	gap: 12px;
 }
-
-	.latestSection {
-		padding: 32px 24px 44px;
-		gap: 24px;
-	}
-	.latestGrid {
-		gap: 16px;
-	}
-	.latestTitle {
-		font-size: 28px;
-	}
-	.latestLead {
-		font-size: 16px;
-	}
-	.latestDesc {
-		font-size: 14px;
-	}
-	.eventsSection {
-		padding: 32px 24px 44px;
-		gap: 24px;
-	}
-	.eventsGrid {
-		gap: 16px;
-	}
-	.eventsTitle {
-		font-size: 28px;
-	}
-	.eventsLead {
-		font-size: 16px;
-	}
-	.eventsDesc {
-		font-size: 14px;
-	}
 .boardTitle {
 	margin: 0;
 	font-size: 36px;
@@ -608,8 +586,8 @@
 }
 
 
-.sectionGdzieNasZnale {
-  	width: 100%;
+.findUsSection {
+	width: 100%;
 	position: relative;
 	background-color: #f1dabf;
 	background-image: url('../assets/images/icons-combined-tan.svg');
@@ -624,9 +602,9 @@
 	text-align: left;
 	font-size: 16px;
 	color: #fcf8f2;
-	font-family: 'Source Sans 3';
+	font-family: 'Source Sans 3', sans-serif;
 }
-.sectionGdzieNasZnale::after {
+.findUsSection::after {
 	content: '';
 	position: absolute;
 	inset: 0;
@@ -634,10 +612,10 @@
 	z-index: 0;
 	pointer-events: none;
 }
-.mapka {
+.mapCard {
 	width: 100%;
 	max-width: 1180px;
-	box-shadow: 0px 10px 28px rgba(0, 0, 0, 0.18);
+	box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
 	overflow: hidden;
 	display: grid;
 	grid-template-columns: 0.42fr 0.58fr;
@@ -648,7 +626,7 @@
 	position: relative;
 	z-index: 1;
 }
-.mapka::after {
+.mapCard::after {
 	content: '';
 	position: absolute;
 	inset: 0;
@@ -656,7 +634,7 @@
 	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.03);
 	pointer-events: none;
 }
-.frameGroup {
+.mapInfoPanel {
 	background-color: #231f20;
 	overflow: hidden;
 	display: flex;
@@ -667,7 +645,7 @@
 	gap: 16px;
 	color: #fcf8f2;
 }
-.gdzieNasZnaleParent {
+.findUsHeader {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -676,35 +654,35 @@
 	gap: 12px;
 	font-size: 60px;
 }
-.gdzieNasZnale {
-  	align-self: stretch;
-  	position: relative;
-  	letter-spacing: -0.06em;
-  	line-height: 105%;
+.findUsTitle {
+	align-self: stretch;
+	position: relative;
+	letter-spacing: -0.06em;
+	line-height: 105%;
 	font-weight: 600;
 	font-family: 'Source Sans 3', sans-serif;
 	margin: 0;
 }
-.vectorIcon {
+.accentLine {
 	align-self: stretch;
 	height: 2px;
 	background: #e27478;
 	border-radius: 2px;
 }
-.stacjonujemyNaCoDzieWBudParent {
+.locationDetails {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 8px;
 }
-.stacjonujemyNaCo {
+.locationParagraph {
   	align-self: stretch;
   	position: relative;
   	letter-spacing: 0.02em;
   	line-height: 140%;
 }
-.vectorParent {
+.addressGroup {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -727,12 +705,12 @@
 .frameIcon2 {
 	display: none;
 }
-.ulPomorska149153 {
-  	position: relative;
-  	letter-spacing: 0.02em;
-  	line-height: 140%;
+.addressText {
+	position: relative;
+	letter-spacing: 0.02em;
+	line-height: 140%;
 }
-.mapkaInner {
+.mapEmbed {
 	background-color: #fff;
 	overflow: hidden;
 	display: flex;
@@ -817,10 +795,10 @@
 		width: 100%;
 		gap: 32px;
 	}
-	.studenckieKooNaukowe {
+	.heroTitle {
 		font-size: inherit;
 	}
-	.zrzeszamyOsobyZainteresowane {
+	.heroSubtitle {
 		font-size: 22px;
 	}
 	.rightSideIcon {
@@ -828,20 +806,20 @@
 		width: 280px;
 	}
 
-	.sectionGdzieNasZnale {
+	.findUsSection {
 		padding: 40px 24px 48px;
 	}
-	.mapka {
+	.mapCard {
 		max-width: 1040px;
 		grid-template-columns: 0.46fr 0.54fr;
 	}
-	.frameGroup {
+	.mapInfoPanel {
 		padding: 32px;
 	}
-	.mapkaInner {
+	.mapEmbed {
 		padding: 10px;
 	}
-	.gdzieNasZnaleParent {
+	.findUsHeader {
 		font-size: 48px;
 	}
 }
@@ -873,17 +851,17 @@
 		padding: 28px 20px 24px;
 	}
 
-	.sectionGdzieNasZnale {
+	.findUsSection {
 		padding: 36px 20px 44px;
 	}
-	.mapka {
+	.mapCard {
 		max-width: 100%;
 		grid-template-columns: 1fr;
 	}
-	.frameGroup {
+	.mapInfoPanel {
 		padding: 32px 24px;
 	}
-	.gdzieNasZnaleParent {
+	.findUsHeader {
 		font-size: 40px;
 	}
 
@@ -903,7 +881,7 @@
 	.title {
 		align-items: center;
 	}
-	.zrzeszamyOsobyZainteresowane {
+	.heroSubtitle {
 		font-size: 20px;
 	}
 	.buttons {
@@ -943,28 +921,28 @@
 		font-size: 42px;
 	}
 
-	.sectionGdzieNasZnale {
+	.findUsSection {
 		padding: 32px 16px 40px;
 	}
-	.mapka {
+	.mapCard {
 		max-width: 100%;
 		grid-template-columns: 1fr;
 	}
-	.frameGroup {
+	.mapInfoPanel {
 		padding: 24px 16px;
 		align-items: center;
 		text-align: center;
 	}
-	.gdzieNasZnaleParent {
+	.findUsHeader {
 		width: 100%;
 		font-size: 32px;
 	}
-	.stacjonujemyNaCoDzieWBudParent,
-	.vectorParent {
+	.locationDetails,
+	.addressGroup {
 		width: 100%;
 		align-items: center;
 	}
-	.mapkaInner {
+	.mapEmbed {
 		padding: 12px;
 	}
 	.frameChild8 {
@@ -1004,7 +982,7 @@
 	.text {
 		gap: 24px;
 	}
-	.zrzeszamyOsobyZainteresowane {
+	.heroSubtitle {
 		font-size: 18px;
 		line-height: 135%;
 	}
@@ -1012,8 +990,8 @@
 		gap: 12px;
 		width: 100%;
 	}
-	.projektyWrapper,
-	.wydarzeniaWrapper {
+	.projectsButton,
+	.eventsButton {
 		width: 100%;
 		justify-content: center;
 	}

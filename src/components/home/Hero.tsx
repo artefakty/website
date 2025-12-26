@@ -9,16 +9,16 @@ const Hero = () => {
       <div className={styles.leftSide}>
         <div className={styles.text}>
           <div className={styles.title}>
-            <b className={styles.studenckieKooNaukowe}>Studenckie Koło Naukowe Artefakty!</b>
+            <b className={styles.heroTitle}>Studenckie Koło Naukowe Artefakty!</b>
           </div>
-          <div className={styles.zrzeszamyOsobyZainteresowane}>Zrzeszamy osoby zainteresowane IT, robotyką i nie tylko.</div>
+          <div className={styles.heroSubtitle}>Zrzeszamy osoby zainteresowane IT, robotyką i nie tylko.</div>
         </div>
         <div className={styles.buttons}>
-          <Link to="/projects" className={styles.projektyWrapper}>
-            <div className={styles.projekty}>PROJEKTY</div>
+          <Link to="/projects" className={styles.projectsButton}>
+            <div className={styles.buttonLabel}>PROJEKTY</div>
           </Link>
-          <Link to="/events" className={styles.wydarzeniaWrapper}>
-            <div className={styles.projekty}>WYDARZENIA</div>
+          <Link to="/events" className={styles.eventsButton}>
+            <div className={styles.buttonLabel}>WYDARZENIA</div>
           </Link>
         </div>
       </div>

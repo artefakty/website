@@ -39,16 +39,16 @@ interface EventCardProps {
 
 const EventCard = ({ image, title, description, date, readMoreLink, calendar, startDate, endDate = startDate, startTime, endTime, location = 'Wydział Fizyki i Informatyki Stosowanej Uniwersytetu Łódzkiego, Pomorska 149/153, 90-236 Łódź, Polska' }: EventCardProps) => {
   return (
-    <div className={styles.event}>
-      <div className={styles.eventInner}>
+    <div className={styles.eventCard}>
+      <div className={styles.eventMedia}>
         <div className={styles.imageContainer}>
           <img className={styles.eventImage} src={image} alt={title} />
           <img className={styles.eventImage} src={image} alt={title} />
         </div>
       </div>
-      <div className={styles.right}>
-        <div className={styles.frameParent}>
-          <div className={styles.titleWrapper}>
+      <div className={styles.eventDetails}>
+        <div className={styles.detailsColumn}>
+          <div className={styles.titleRow}>
             <b className={styles.title}>{title}</b>
             {calendar && (
                 <div className={styles.calendarWrapper}>
@@ -71,14 +71,14 @@ const EventCard = ({ image, title, description, date, readMoreLink, calendar, st
                 </div>
                 )}
           </div>
-          <div className={styles.frameChild}></div>
-          <div className={styles.descriptionWrapper}>
+            <div className={styles.titleDivider}></div>
+            <div className={styles.descriptionBlock}>
             <div className={styles.description}>{description}</div>
           </div>
         </div>
-        <div className={styles.footer}>
+          <div className={styles.eventFooter}>
           <div className={styles.date}>{date}</div>
-          <div className={styles.readMoreWrapper}>
+            <div className={styles.readMoreButton}>
             {readMoreLink ? (
               <a href={readMoreLink} className={styles.readMore}>Czytaj dalej</a>
             ) : (

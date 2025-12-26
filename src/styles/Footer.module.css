@@ -1,416 +1,472 @@
 .footer {
-  	width: 100%;
-  	position: relative;
-  	background-color: #231f20;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-  	text-align: left;
-  	font-size: 19px;
-  	color: #fcf8f2;
-  	font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+	width: 100%;
+	position: relative;
+	background-color: #231f20;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: left;
+	font-size: 19px;
+	color: #fcf8f2;
+	font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
 }
+
 .footerContent {
-  	width: 100%;
-  	max-width: 1200px;
-  	background-color: #231f20;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-  	justify-content: center;
-  	padding: 0px 0px 40px;
-  	box-sizing: border-box;
+	width: 100%;
+	max-width: 1200px;
+	background-color: #231f20;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0 0 40px;
+	box-sizing: border-box;
 }
-.logoParent {
-  	width: 100%;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-  	justify-content: center;
-  	max-width: 100%;
+
+.footerLayout {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 100%;
 }
-.logo {
-  	align-self: stretch;
-  	overflow: hidden;
-  	display: flex;
-  	align-items: center;
-  	justify-content: space-between;
-  	padding: 40px 64px;
-  	gap: 20px;
+
+.footerTopRow {
+	align-self: stretch;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40px 64px;
+	gap: 20px;
 }
-.frame {
-  	display: flex;
-  	align-items: center;
-  	flex-shrink: 0;
+
+.brandContainer {
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
 }
+
 .logoWithName {
-  	height: 56px;
-  	width: auto;
-  	max-width: 148px;
+	height: 56px;
+	width: auto;
+	max-width: 148px;
 }
-.groupParent {
-  	display: flex;
-  	align-items: center;
-  	justify-content: flex-end;
-  	gap: 40px;
+
+.partnersRow {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 40px;
 }
-.groupIcon {
-      height: 40px;
-      width: 126.3px;
-      position: relative;
-      cursor: pointer;
-      transition: opacity 0.3s ease;
+
+.partnerLogo,
+.partnerLogoAlt {
+	height: 40px;
+	position: relative;
+	cursor: pointer;
+	transition: opacity 0.3s ease;
 }
-.groupIcon:hover {
-      opacity: 0.7;
+
+.partnerLogo {
+	width: 126.3px;
 }
-.groupIcon2 {
-      height: 40px;
-      width: 202.5px;
-      position: relative;
-      cursor: pointer;
-      transition: opacity 0.3s ease;
+
+.partnerLogoAlt {
+	width: 202.5px;
 }
-.groupIcon2:hover {
-      opacity: 0.7;
+
+.partnerLogo:hover,
+.partnerLogoAlt:hover {
+	opacity: 0.7;
 }
-.sekcjaKontaktParent {
-  	align-self: stretch;
-  	display: flex;
-  	align-items: flex-start;
-  	padding: 0px 64px;
-  	gap: 64px;
+
+.footerSections {
+	align-self: stretch;
+	display: flex;
+	align-items: flex-start;
+	padding: 0 64px;
+	gap: 64px;
 }
-.sekcjaKontakt {
-  	width: 231px;
-  	overflow: hidden;
-  	flex-shrink: 0;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
+
+.contactSection {
+	width: 231px;
+	overflow: hidden;
+	flex-shrink: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
-.kontaktParent {
-  	align-self: stretch;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	gap: 16px;
+
+.contactBlock {
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 16px;
 }
-.kontakt {
-  	align-self: stretch;
-  	position: relative;
-  	line-height: 150%;
-  	font-weight: 500;
+
+.sectionHeading {
+	align-self: stretch;
+	position: relative;
+	line-height: 150%;
+	font-weight: 500;
 }
-.frameParent {
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	gap: 8px;
-  	font-size: 14px;
-  	color: #796d6f;
+
+.contactInfoList {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
+	font-size: 14px;
+	color: #796d6f;
 }
-.frameGroup {
-  	align-self: stretch;
-  	display: flex;
-  	align-items: center;
-  	gap: 8px;
+
+.contactRow {
+	align-self: stretch;
+	display: flex;
+	align-items: center;
+	gap: 8px;
 }
-.frameIcon {
-  	height: 24px;
-  	width: 24px;
-  	position: relative;
+
+.footerIcon {
+	height: 24px;
+	width: 24px;
+	position: relative;
+	color: #796d6f;
+	transition: color 0.3s ease;
 }
-.artefaktyfisunilodzpl {
-      width: 180px;
-      position: relative;
-      letter-spacing: 0.02em;
-      line-height: 130%;
-      display: inline-block;
-      flex-shrink: 0;
-      font-weight: 400;
-      text-decoration: none;
-      color: #796d6f;
-      transition: color 0.3s ease;
-}
-.artefaktyfisunilodzpl:hover {
-      color: #fcf8f2;
-}
-.frameContainer {
-  	align-self: stretch;
-  	display: flex;
-  	align-items: flex-start;
-  	gap: 8px;
-}
-.wydziaFizykiI {
-      width: 199px;
-      position: relative;
-      letter-spacing: 0.02em;
-      line-height: 130%;
-      display: inline-block;
-      flex-shrink: 0;
-      font-weight: 400;
-      text-decoration: none;
-      color: #796d6f;
-      transition: color 0.3s ease;
-}
-.wydziaFizykiI:hover {
-      color: #fcf8f2;
-}
-.frameIcon {
-      height: 24px;
-      width: 24px;
-      position: relative;
-      color: #796d6f;
-      transition: color 0.3s ease;
-}
-.section3 {
-  	overflow: hidden;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	gap: 16px;
-}
-.stronaGlownaParent {
-  	align-self: stretch;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	gap: 8px;
-  	font-size: 14px;
-  	color: #796d6f;
-}
-.stronaGlowna {
-  	width: 180px;
-  	position: relative;
-  	letter-spacing: 0.02em;
-  	line-height: 130%;
-  	display: inline-block;
-  	font-weight: 400;
+
+.contactEmail {
+	width: 180px;
+	position: relative;
+	letter-spacing: 0.02em;
+	line-height: 130%;
+	display: inline-block;
+	flex-shrink: 0;
+	font-weight: 400;
 	text-decoration: none;
 	color: #796d6f;
 	transition: color 0.3s ease;
 }
-.stronaGlowna:hover {
+
+.contactEmail:hover {
 	color: #fcf8f2;
 }
-.projekty {
-  	align-self: stretch;
-  	position: relative;
-  	letter-spacing: 0.02em;
-  	line-height: 130%;
-  	font-weight: 400;
+
+.addressBlock {
+	align-self: stretch;
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+}
+
+.addressLink {
+	width: 199px;
+	position: relative;
+	letter-spacing: 0.02em;
+	line-height: 130%;
+	display: inline-block;
+	flex-shrink: 0;
+	font-weight: 400;
 	text-decoration: none;
 	color: #796d6f;
 	transition: color 0.3s ease;
 }
-.projekty:hover {
+
+.addressLink:hover {
 	color: #fcf8f2;
 }
-.sekcjaSocialMedia {
-  	flex: 1;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	gap: 16px;
+
+.navigationSection {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 16px;
 }
-.ikony {
-  	display: flex;
-  	align-items: center;
-  	justify-content: flex-start;
-  	gap: 8px;
+
+.navLinksColumn {
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
+	font-size: 14px;
+	color: #796d6f;
 }
-.ikony a {
-      color: #796d6f;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: color 0.3s ease;
+
+.navLinkPrimary {
+	width: 180px;
+	position: relative;
+	letter-spacing: 0.02em;
+	line-height: 130%;
+	display: inline-block;
+	font-weight: 400;
+	text-decoration: none;
+	color: #796d6f;
+	transition: color 0.3s ease;
 }
-.ikony a:hover {
-      color: #fcf8f2;
+
+.navLinkPrimary:hover {
+	color: #fcf8f2;
 }
-.ikony a:hover .frameIcon {
-      color: #fcf8f2;
+
+.navLink {
+	align-self: stretch;
+	position: relative;
+	letter-spacing: 0.02em;
+	line-height: 130%;
+	font-weight: 400;
+	text-decoration: none;
+	color: #796d6f;
+	transition: color 0.3s ease;
 }
-.logo2 {
-  	align-self: stretch;
-  	overflow: hidden;
-  	display: flex;
-  	align-items: center;
-  	padding: 8px 64px;
-  	text-align: right;
-  	font-size: 14px;
-  	color: #796d6f;
+
+.navLink:hover {
+	color: #fcf8f2;
 }
-.sknArtefakty {
-  	flex: 1;
-  	position: relative;
-  	letter-spacing: 0.02em;
-  	line-height: 130%;
+
+.socialSection {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 16px;
+}
+
+.socialIcons {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 8px;
+}
+
+.socialIcons a {
+	color: #796d6f;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: color 0.3s ease;
+}
+
+.socialIcons a:hover {
+	color: #fcf8f2;
+}
+
+.socialIcons a:hover .footerIcon {
+	color: #fcf8f2;
+}
+
+.footerBottom {
+	align-self: stretch;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	padding: 8px 64px;
+	text-align: right;
+	font-size: 14px;
+	color: #796d6f;
+}
+
+.footerCopyright {
+	flex: 1;
+	position: relative;
+	letter-spacing: 0.02em;
+	line-height: 130%;
 }
 
 @media screen and (max-width: 1200px) {
-  	.footerContent {
-  		padding: 0 32px 40px;
-  	}
-  	.logo {
-  		padding: 40px 32px;
-  	}
-  	.sekcjaKontaktParent {
-  		padding: 0px 32px;
-  		gap: 40px;
-  	}
-  	.logo2 {
-  		padding: 8px 32px;
-  	}
+	.footerContent {
+		padding: 0 32px 40px;
+	}
+
+	.footerTopRow {
+		padding: 40px 32px;
+	}
+
+	.footerSections {
+		padding: 0 32px;
+		gap: 40px;
+	}
+
+	.footerBottom {
+		padding: 8px 32px;
+	}
 }
 
 @media screen and (max-width: 730px) {
-  	.footer {
-  		font-size: 16px;
-  	}
-  	.logo {
-  		padding: 24px 16px;
-  	}
-  	.logoWithName {
-  		height: 48px;
-  		max-width: 120px;
-  	}
-  	.groupIcon {
-  		height: 32px;
-  		width: auto;
-  	}
-  	.groupIcon2 {
-  		height: 32px;
-  		width: auto;
-  	}
-  	.sekcjaKontaktParent {
-  		padding: 0px 16px;
-  		gap: 24px;
-  	}
-  	.kontaktParent {
-  		gap: 12px;
-  	}
-  	.frameParent {
-  		font-size: 13px;
-  	}
-  	.frameIcon {
-  		flex-shrink: 0;
-  	}
-  	.stronaGwnaParent {
-  		font-size: 13px;
-  	}
-  	.artefaktyfisunilodzpl {
-  		width: auto;
-  		max-width: 100%;
-  	}
-  	.wydziaFizykiI {
-  		width: auto;
-  		max-width: 100%;
-  	}
-  	.stronaGwna {
-  		width: auto;
-  	}
-  	.logo2 {
-  		padding: 8px 16px;
-  		font-size: 13px;
-  	}
-  	.footerContent {
-  		padding: 0 16px 24px;
-  	}
+	.footer {
+		font-size: 16px;
+	}
+
+	.footerTopRow {
+		padding: 24px 16px;
+	}
+
+	.logoWithName {
+		height: 48px;
+		max-width: 120px;
+	}
+
+	.partnerLogo,
+	.partnerLogoAlt {
+		height: 32px;
+		width: auto;
+	}
+
+	.footerSections {
+		padding: 0 16px;
+		gap: 24px;
+	}
+
+	.contactBlock {
+		gap: 12px;
+	}
+
+	.contactInfoList {
+		font-size: 13px;
+	}
+
+	.footerIcon {
+		flex-shrink: 0;
+	}
+
+	.navLinksColumn {
+		font-size: 13px;
+	}
+
+	.contactEmail {
+		width: auto;
+		max-width: 100%;
+	}
+
+	.addressLink {
+		width: auto;
+		max-width: 100%;
+	}
+
+	.navLinkPrimary {
+		width: auto;
+	}
+
+	.footerBottom {
+		padding: 8px 16px;
+		font-size: 13px;
+	}
+
+	.footerContent {
+		padding: 0 16px 24px;
+	}
 }
 
 @media screen and (max-width: 630px) {
-  	.footer {
-  		font-size: 16px;
-  	}
-	.groupParent {
-		flex-direction: column;
-  		justify-content: center;
-  		gap: 24px;
-		align-items: flex-end;
-  	}
-  	.logo {
-  		padding: 24px 16px;
-  	}
-  	.logoWithName {
-  		height: 48px;
-  		max-width: 120px;
-  	}
-  	.groupIcon {
-  		height: 32px;
-  		width: auto;
-  	}
-  	.groupIcon2 {
-  		height: 32px;
-  		width: auto;
-  	}
-	.sekcjaSocialMedia {
-		width: 100%;
-		
+	.footer {
+		font-size: 16px;
 	}
-	.kontakt{
+
+	.partnersRow {
+		flex-direction: column;
+		justify-content: center;
+		gap: 24px;
+		align-items: flex-end;
+	}
+
+	.footerTopRow {
+		padding: 24px 16px;
+	}
+
+	.logoWithName {
+		height: 48px;
+		max-width: 120px;
+	}
+
+	.partnerLogo,
+	.partnerLogoAlt {
+		height: 32px;
+		width: auto;
+	}
+
+	.socialSection {
+		width: 100%;
+	}
+
+	.sectionHeading {
 		margin-right: -10px;
 	}
-  	.sekcjaKontaktParent {
-  		padding: 0px 16px;
-  		gap: 24px;
+
+	.footerSections {
+		padding: 0 16px;
+		gap: 24px;
 		flex-direction: row;
 		flex-wrap: wrap;
-  		justify-content: flex-start;
+		justify-content: flex-start;
 	}
-	.section3 {
+
+	.navigationSection {
 		margin-right: -20px;
 	}
-  	.kontaktParent {
-  		gap: 12px;
-  	}
-  	.frameParent {
-  		font-size: 13px;
-  	}
-  	.frameIcon {
-  		flex-shrink: 0;
-  	}
-  	.stronaGwnaParent {
-  		font-size: 13px;
-  	}
-  	.artefaktyfisunilodzpl {
-  		width: auto;
-  		max-width: 100%;
-  	}
-  	.wydziaFizykiI {
-  		width: auto;
-  		max-width: 100%;
-  	}
-  	.stronaGwna {
-  		width: auto;
-  	}
-  	.logo2 {
-  		padding: 8px 16px;
-  		font-size: 13px;
-  	}
-  	.footerContent {
-  		padding: 0 16px 24px;
-  	}
+
+	.contactBlock {
+		gap: 12px;
+	}
+
+	.contactInfoList {
+		font-size: 13px;
+	}
+
+	.footerIcon {
+		flex-shrink: 0;
+	}
+
+	.navLinksColumn {
+		font-size: 13px;
+	}
+
+	.contactEmail {
+		width: auto;
+		max-width: 100%;
+	}
+
+	.addressLink {
+		width: auto;
+		max-width: 100%;
+	}
+
+	.navLinkPrimary {
+		width: auto;
+	}
+
+	.footerBottom {
+		padding: 8px 16px;
+		font-size: 13px;
+	}
+
+	.footerContent {
+		padding: 0 16px 24px;
+	}
 }
 
 @media screen and (max-width: 380px) {
-	.groupParent {
+	.partnersRow {
 		flex-direction: column;
-  		justify-content: center;
-  		gap: 24px;
+		justify-content: center;
+		gap: 24px;
 		align-items: flex-start;
-  	}
-	.logoParent {
+	}
+
+	.footerLayout {
 		flex-direction: column;
 	}
-	.logo {
+
+	.footerTopRow {
 		flex-direction: column;
 		align-items: flex-start;
 		gap: 24px;
 	}
-	.kontakt{
+
+	.sectionHeading {
 		margin-right: -10px;
 	}
 }

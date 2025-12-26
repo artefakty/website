@@ -10,62 +10,62 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.footerContent}>
-        <div className={styles.logoParent}>
-          <div className={styles.logo}>
-            <div className={styles.frame}>
+        <div className={styles.footerLayout}>
+          <div className={styles.footerTopRow}>
+            <div className={styles.brandContainer}>
               <Link to="/">
                 <img className={styles.logoWithName} src={logoWithName} alt="SKN Artefakty" />
               </Link>
             </div>
-            <div className={styles.groupParent}>
+            <div className={styles.partnersRow}>
               <a href="https://www.uni.lodz.pl" target="_blank" rel="noopener noreferrer">
-                <img className={styles.groupIcon} src={logoUL} alt="Uniwersytet Łódzki" />
+                <img className={styles.partnerLogo} src={logoUL} alt="Uniwersytet Łódzki" />
               </a>
               <a href="https://www.wfis.uni.lodz.pl" target="_blank" rel="noopener noreferrer">
-                <img className={styles.groupIcon2} src={logoWFIS} alt="Wydział Fizyki i Informatyki Stosowanej" />
+                <img className={styles.partnerLogoAlt} src={logoWFIS} alt="Wydział Fizyki i Informatyki Stosowanej" />
               </a>
             </div>
           </div>
-          <div className={styles.sekcjaKontaktParent}>
-            <div className={styles.sekcjaKontakt}>
-              <div className={styles.kontaktParent}>
-                <div className={styles.kontakt}>Kontakt</div>
-                <div className={styles.frameParent}>
-                  <div className={styles.frameGroup}>
-                    <FiMail className={styles.frameIcon} />
-                    <a href="mailto:artefakty@fis.uni.lodz.pl" className={styles.artefaktyfisunilodzpl}>
+          <div className={styles.footerSections}>
+            <div className={styles.contactSection}>
+              <div className={styles.contactBlock}>
+                <div className={styles.sectionHeading}>Kontakt</div>
+                <div className={styles.contactInfoList}>
+                  <div className={styles.contactRow}>
+                    <FiMail className={styles.footerIcon} />
+                    <a href="mailto:artefakty@fis.uni.lodz.pl" className={styles.contactEmail}>
                       artefakty@fis.uni.lodz.pl
                     </a>
                   </div>
-                  <div className={styles.frameContainer}>
-                    <FiMapPin className={styles.frameIcon} />
-                    <a href="https://maps.app.goo.gl/KhWgK28P9MEGF18b6" target="_blank" rel="noopener noreferrer" className={styles.wydziaFizykiI}>
+                  <div className={styles.addressBlock}>
+                    <FiMapPin className={styles.footerIcon} />
+                    <a href="https://maps.app.goo.gl/KhWgK28P9MEGF18b6" target="_blank" rel="noopener noreferrer" className={styles.addressLink}>
                       Wydział Fizyki i Informatyki Stosowanej UŁ<br/>ul. Pomorska 149/153<br/>90-236 Łódź
                     </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div className={styles.section3}>
-              <div className={styles.kontakt}>Nawigacja</div>
-              <div className={styles.stronaGlownaParent}>
-                <Link to="/" className={styles.stronaGlowna}>Strona Główna</Link>
-                <Link to="/projects" className={styles.projekty}>Projekty</Link>
-                <Link to="/events" className={styles.projekty}>Wydarzenia</Link>
-                <Link to="/contact" className={styles.projekty}>Kontakt</Link>
+            <div className={styles.navigationSection}>
+              <div className={styles.sectionHeading}>Nawigacja</div>
+              <div className={styles.navLinksColumn}>
+                <Link to="/" className={styles.navLinkPrimary}>Strona Główna</Link>
+                <Link to="/projects" className={styles.navLink}>Projekty</Link>
+                <Link to="/events" className={styles.navLink}>Wydarzenia</Link>
+                <Link to="/contact" className={styles.navLink}>Kontakt</Link>
               </div>
             </div>
-            <div className={styles.sekcjaSocialMedia}>
-              <div className={styles.kontakt}>Social Media</div>
-              <div className={styles.ikony}>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><FiFacebook className={styles.frameIcon} /></a>
-                <a href="https://www.instagram.com/skn.artefakty/" target="_blank" rel="noopener noreferrer"><FiInstagram className={styles.frameIcon} /></a>
-                <a href="https://discord.gg/2UvEkYtsSx" target="_blank" rel="noopener noreferrer"><FaDiscord className={styles.frameIcon} /></a>
+            <div className={styles.socialSection}>
+              <div className={styles.sectionHeading}>Social Media</div>
+              <div className={styles.socialIcons}>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><FiFacebook className={styles.footerIcon} /></a>
+                <a href="https://www.instagram.com/skn.artefakty/" target="_blank" rel="noopener noreferrer"><FiInstagram className={styles.footerIcon} /></a>
+                <a href="https://discord.gg/2UvEkYtsSx" target="_blank" rel="noopener noreferrer"><FaDiscord className={styles.footerIcon} /></a>
               </div>
             </div>
           </div>
-          <div className={styles.logo2}>
-            <div className={styles.sknArtefakty}>© {new Date().getFullYear()} SKN Artefakty.</div>
+          <div className={styles.footerBottom}>
+            <div className={styles.footerCopyright}>© {new Date().getFullYear()} SKN Artefakty.</div>
           </div>
         </div>
       </div>

@@ -58,9 +58,15 @@ const Footer = () => {
             <div className={styles.socialSection}>
               <div className={styles.sectionHeading}>Social Media</div>
               <div className={styles.socialIcons}>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><FiFacebook className={styles.footerIcon} /></a>
-                <a href="https://www.instagram.com/skn.artefakty/" target="_blank" rel="noopener noreferrer"><FiInstagram className={styles.footerIcon} /></a>
-                <a href="https://discord.gg/2UvEkYtsSx" target="_blank" rel="noopener noreferrer"><FaDiscord className={styles.footerIcon} /></a>
+                <a href="https://www.facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                  <FiFacebook className={styles.footerIcon} />
+                </a>
+                <a href="https://www.instagram.com/skn.artefakty/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                  <FiInstagram className={styles.footerIcon} />
+                </a>
+                <a href="https://discord.gg/2UvEkYtsSx" aria-label="Discord" target="_blank" rel="noopener noreferrer">
+                  <FaDiscord className={styles.footerIcon} />
+                </a>
               </div>
             </div>
           </div>

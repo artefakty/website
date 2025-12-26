@@ -34,9 +34,15 @@ const Navbar = () => {
             </div>
 
             <div className={`${styles.socialLinks} ${isMenuOpen ? styles.active : ''}`}>
-                <a href="https://www.facebook.com" onClick={handleNavClick}><FiFacebook className={styles.socialIcon} /></a>
-                <a href="https://www.instagram.com/skn.artefakty/" onClick={handleNavClick}><FiInstagram className={styles.socialIcon} /></a>
-                <a href="https://discord.gg/2UvEkYtsSx" onClick={handleNavClick}><FaDiscord className={styles.socialIcon} /></a>
+                <a href="https://www.facebook.com" aria-label="Facebook" onClick={handleNavClick}>
+                    <FiFacebook className={styles.socialIcon} />
+                </a>
+                <a href="https://www.instagram.com/skn.artefakty/" aria-label="Instagram" onClick={handleNavClick}>
+                    <FiInstagram className={styles.socialIcon} />
+                </a>
+                <a href="https://discord.gg/2UvEkYtsSx" aria-label="Discord" onClick={handleNavClick}>
+                    <FaDiscord className={styles.socialIcon} />
+                </a>
             </div>
         </div>
     )

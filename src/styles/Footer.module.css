@@ -55,14 +55,24 @@
   	gap: 40px;
 }
 .groupIcon {
-  	height: 40px;
-  	width: 126.3px;
-  	position: relative;
+      height: 40px;
+      width: 126.3px;
+      position: relative;
+      cursor: pointer;
+      transition: opacity 0.3s ease;
+}
+.groupIcon:hover {
+      opacity: 0.7;
 }
 .groupIcon2 {
-  	height: 40px;
-  	width: 202.5px;
-  	position: relative;
+      height: 40px;
+      width: 202.5px;
+      position: relative;
+      cursor: pointer;
+      transition: opacity 0.3s ease;
+}
+.groupIcon2:hover {
+      opacity: 0.7;
 }
 .sekcjaKontaktParent {
   	align-self: stretch;
@@ -112,13 +122,19 @@
   	position: relative;
 }
 .artefaktyfisunilodzpl {
-  	width: 180px;
-  	position: relative;
-  	letter-spacing: 0.02em;
-  	line-height: 130%;
-  	display: inline-block;
-  	flex-shrink: 0;
-  	font-weight: 400;
+      width: 180px;
+      position: relative;
+      letter-spacing: 0.02em;
+      line-height: 130%;
+      display: inline-block;
+      flex-shrink: 0;
+      font-weight: 400;
+      text-decoration: none;
+      color: #796d6f;
+      transition: color 0.3s ease;
+}
+.artefaktyfisunilodzpl:hover {
+      color: #fcf8f2;
 }
 .frameContainer {
   	align-self: stretch;
@@ -127,16 +143,26 @@
   	gap: 8px;
 }
 .wydziaFizykiI {
-  	width: 199px;
-  	position: relative;
-  	letter-spacing: 0.02em;
-  	line-height: 130%;
-  	display: inline-block;
-  	flex-shrink: 0;
-  	font-weight: 400;
+      width: 199px;
+      position: relative;
+      letter-spacing: 0.02em;
+      line-height: 130%;
+      display: inline-block;
+      flex-shrink: 0;
+      font-weight: 400;
+      text-decoration: none;
+      color: #796d6f;
+      transition: color 0.3s ease;
+}
+.wydziaFizykiI:hover {
+      color: #fcf8f2;
 }
 .frameIcon {
-  	color: #796d6f;
+      height: 24px;
+      width: 24px;
+      position: relative;
+      color: #796d6f;
+      transition: color 0.3s ease;
 }
 .section3 {
   	overflow: hidden;
@@ -195,14 +221,17 @@
   	gap: 8px;
 }
 .ikony a {
-  	color: #fcf8f2;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	transition: color 0.3s ease;
+      color: #796d6f;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: color 0.3s ease;
 }
 .ikony a:hover {
-  	color: #796d6f;
+      color: #fcf8f2;
+}
+.ikony a:hover .frameIcon {
+      color: #fcf8f2;
 }
 .logo2 {
   	align-self: stretch;

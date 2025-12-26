@@ -51,25 +51,25 @@ const EventCard = ({ image, title, description, date, readMoreLink, calendar, st
           <div className={styles.titleWrapper}>
             <b className={styles.title}>{title}</b>
             {calendar && (
-  <div className={styles.calendarWrapper}>
-    <add-to-calendar-button
-        name={title}
-        startDate={startDate}
-        startTime={startTime}
-        endDate={endDate}
-        endTime={endTime}
-        timeZone="Europe/Warsaw"
-        location={location}
-        options="'Apple','Google'"
-        listStyle="dropdown-static"
-        buttonStyle="round"
-        hideTextLabelButton
-        buttonsList
-        lightMode="bodyScheme"
-        language="pl"
-    ></add-to-calendar-button>
-  </div>
-)}
+                <div className={styles.calendarWrapper}>
+                    <add-to-calendar-button
+                        name={title}
+                        startDate={startDate}
+                        startTime={startTime}
+                        endDate={endDate}
+                        endTime={endTime}
+                        timeZone="Europe/Warsaw"
+                        location={location}
+                        options="'Apple','Google'"
+                        listStyle="dropdown-static"
+                        buttonStyle="round"
+                        hideTextLabelButton
+                        buttonsList
+                        lightMode="bodyScheme"
+                        language="pl"
+                    ></add-to-calendar-button>
+                </div>
+                )}
           </div>
           <div className={styles.frameChild}></div>
           <div className={styles.descriptionWrapper}>

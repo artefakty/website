@@ -1,5 +1,6 @@
 import styles from '../../styles/Navbar.module.css';
-import { FiFacebook, FiInstagram, FiMail, FiMenu, FiX } from "react-icons/fi";
+import { FiFacebook, FiInstagram, FiMenu, FiX } from "react-icons/fi";
+import { FaDiscord } from "react-icons/fa";
 import logo from '../../assets/icons/logo-with-name.svg';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -15,8 +16,9 @@ const Navbar = () => {
 
     return (
         <div className={styles.navbar}>
-            <img className={styles.frameIcon} src={logo} alt="Artefakty Logo" />
-            
+            <Link to="/">
+                <img className={styles.frameIcon} src={logo} alt="Artefakty Logo" />
+            </Link>
             <button className={styles.hamburger} onClick={toggleMenu} aria-label="Toggle menu">
                 {isMenuOpen ? <FiX /> : <FiMenu />}
             </button>
@@ -34,7 +36,7 @@ const Navbar = () => {
             <div className={styles.frameParent}>
                 <a href="https://www.facebook.com"><FiFacebook className={styles.frameIcon2} /></a>
                 <a href="https://www.instagram.com/skn.artefakty/"><FiInstagram className={styles.frameIcon2} /></a>
-                <a href="mailto:artefakty@fis.uni.lodz.pl"><FiMail className={styles.frameIcon2} /></a>
+                <a href="https://discord.gg/2UvEkYtsSx"><FaDiscord className={styles.frameIcon2} /></a>
             </div>
         </div>
     )

@@ -1,0 +1,196 @@
+.heroSectionContent {
+  	width: 100%;
+  	position: relative;
+  	background-color: #231f20;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 64px 80px;
+  	box-sizing: border-box;
+  	text-align: left;
+  	font-size: 95px;
+  	color: #fff;
+  	font-family: 'Source Sans 3', sans-serif;
+}
+.content {
+  	width: 1200px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 80px;
+  	box-sizing: border-box;
+  	gap: 20px;
+  	flex-shrink: 0;
+}
+.leftSide {
+  	width: 669px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	gap: 40px;
+}
+.text {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 40px;
+}
+.title {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.studenckieKooNaukowe {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: -0.05em;
+  	line-height: 88%;
+}
+.zrzeszamyOsobyZainteresowane {
+  	align-self: stretch;
+  	height: 36px;
+  	position: relative;
+  	font-size: 25px;
+  	letter-spacing: -0.02em;
+  	line-height: 140%;
+  	font-family: Poppins, sans-serif;
+  	color: #f1dabf;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.buttons {
+  	display: flex;
+  	align-items: center;
+  	gap: 20px;
+  	font-size: 16px;
+  	color: #231f20;
+  	font-family: Poppins;
+}
+.projektyWrapper {
+  	background-color: #ce181e;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 16px 24px;
+    text-decoration: none;
+    color: #231f20;
+}
+.projekty {
+  	position: relative;
+  	letter-spacing: -0.01em;
+  	font-weight: 500;
+}
+.wydarzeniaWrapper {
+  	border: 1px solid #f1dabf;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 16px 24px;
+  	color: #f1dabf;
+    text-decoration: none;
+}
+.rightSideIcon {
+  	height: 487px;
+  	width: 318.2px;
+}
+
+@media screen and (max-width: 1200px) {
+	.heroSectionContent {
+		padding: 56px 48px;
+		font-size: 72px;
+	}
+	.content {
+		width: 100%;
+		padding: 0 40px;
+		gap: 32px;
+	}
+	.leftSide {
+		width: 100%;
+		gap: 32px;
+	}
+	.studenckieKooNaukowe {
+		font-size: inherit;
+	}
+	.zrzeszamyOsobyZainteresowane {
+		font-size: 22px;
+	}
+	.rightSideIcon {
+		height: 420px;
+		width: 280px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.heroSectionContent {
+		padding: 48px 32px;
+		font-size: 58px;
+	}
+	.content {
+		padding: 0 24px;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+	.leftSide {
+		align-items: center;
+	}
+	.text,
+	.title {
+		align-items: center;
+	}
+	.zrzeszamyOsobyZainteresowane {
+		font-size: 20px;
+	}
+	.buttons {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.rightSideIcon {
+		height: 360px;
+		width: 240px;
+        order: -1;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.heroSectionContent {
+		padding: 40px 20px;
+		font-size: 42px;
+	}
+	.content {
+		padding: 0;
+		gap: 24px;
+	}
+	.leftSide {
+		gap: 24px;
+	}
+	.text {
+		gap: 24px;
+	}
+	.zrzeszamyOsobyZainteresowane {
+		font-size: 18px;
+		line-height: 135%;
+	}
+	.buttons {
+		gap: 12px;
+		width: 100%;
+	}
+	.projektyWrapper,
+	.wydarzeniaWrapper {
+		width: 100%;
+		justify-content: center;
+	}
+	.rightSideIcon {
+		height: 280px;
+		width: 200px;
+		order: -1;
+		align-self: center;
+	}
+}
+

@@ -221,7 +221,7 @@
 
 @media screen and (max-width: 1200px) {
 	.packages {
-		padding: 40px 32px 0px;
+		padding: 40px 32px 80px;
 	}
 	.sectionTitle {
 		font-size: 64px;
@@ -237,7 +237,7 @@
 
 @media screen and (max-width: 768px) {
 	.packages {
-		padding: 30px 24px 0px;
+		padding: 30px 24px 80px;
 	}
 	.sectionTitle {
 		font-size: 48px;
@@ -290,7 +290,7 @@
 
 @media screen and (max-width: 480px) {
 	.packages {
-		padding: 20px 16px 0px;
+		padding: 20px 16px 80px;
 	}
 	.sectionTitle {
 		font-size: 36px;

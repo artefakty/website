@@ -1,14 +1,21 @@
-import type { ReactNode } from 'react';
+import { useEffect, type ReactNode } from 'react';
 import Navbar from '../layout/Navbar';
 import Footer from '../layout/Footer';
 import styles from '../../styles/MainLayout.module.css';
 import { Snowfall } from '@namnguyenthanhwork/react-snowfall-effect';
+import { useLocation } from 'react-router-dom';
 
 interface MainLayoutProps {
   children: ReactNode;
 }
 
 const MainLayout = ({ children }: MainLayoutProps) => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [pathname]);
+
   return (
     <div className={styles.layout}>
       <Navbar />

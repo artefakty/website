@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../../styles/Home.module.css';
 import logoWithoutName from '../../assets/icons/logo-without-name.svg';
 import { Link } from 'react-router';

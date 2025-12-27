@@ -1,10 +1,10 @@
 import styles from '../../styles/Footer.module.css';
+import { Link } from 'react-router-dom';
 import { FiFacebook, FiInstagram, FiMail, FiMapPin } from "react-icons/fi";
 import { FaDiscord } from "react-icons/fa";
 import logoWithName from '../../assets/icons/logo-with-name.svg';
 import logoUL from '../../assets/icons/logo-ul.svg';
 import logoWFIS from '../../assets/icons/logo-ul-wfis.svg';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (

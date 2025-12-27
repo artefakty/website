@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../../styles/Home.module.css'
 import jakubImg from '../../assets/images/jakub-gorzadek.jpg'
 import kacperImg from '../../assets/images/kacper-musial.jpg'

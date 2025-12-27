@@ -1,9 +1,9 @@
 import styles from '../../styles/Navbar.module.css';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FiFacebook, FiInstagram, FiMenu, FiX } from "react-icons/fi";
 import { FaDiscord } from "react-icons/fa";
 import logo from '../../assets/icons/logo-with-name.svg';
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);

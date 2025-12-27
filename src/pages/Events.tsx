@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../styles/Events.module.css'
 import EventCard from '../components/events/EventCard'
 import { events } from '../data/events'

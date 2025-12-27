@@ -1,9 +1,9 @@
 import { useEffect, type ReactNode } from 'react';
+import { useLocation } from 'react-router-dom';
 import Navbar from '../layout/Navbar';
 import Footer from '../layout/Footer';
 import styles from '../../styles/MainLayout.module.css';
 import { Snowfall } from '@namnguyenthanhwork/react-snowfall-effect';
-import { useLocation } from 'react-router-dom';
 
 interface MainLayoutProps {
   children: ReactNode;

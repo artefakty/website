@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../styles/Home.module.css'
 import { FiMapPin } from 'react-icons/fi'
 import Hero from '../components/home/Hero'

@@ -1,3 +1,13 @@
+import img20251128 from '../assets/images/events-images/2025-11-28.jpg'
+import img20251204 from '../assets/images/events-images/2025-12-04.jpg'
+import img20251211 from '../assets/images/events-images/2025-12-11.jpg'
+import img20251212 from '../assets/images/events-images/2025-12-12.jpg'
+import img20251214 from '../assets/images/events-images/2025-12-14.jpg'
+import img20251216 from '../assets/images/events-images/2025-12-16.jpg'
+import img20251218 from '../assets/images/events-images/2025-12-18.jpg'
+import img20251222 from '../assets/images/events-images/2025-12-22.jpg'
+import img20251224 from '../assets/images/events-images/2025-12-24.jpg'
+
 export type EventItem = {
 	id: string
 	title: string
@@ -6,6 +16,8 @@ export type EventItem = {
 	place: string
 	image: string
 	tag: string
+	instagram?: string
+	facebook?: string
 	calendar?: boolean
 	startDate?: string
 	endDate?: string
@@ -13,8 +25,6 @@ export type EventItem = {
 	endTime?: string
 	location?: string
 }
-
-const placeholderImage = '/assets/images/avatar.svg'
 
 export const events: EventItem[] = [
 	{
@@ -26,8 +36,10 @@ export const events: EventItem[] = [
 		I widzimy się oczywiście po nowym roku! 🎆👋`,
 		date: '2025-12-24',
 		place: 'WFiIS, Łódź',
-		image: 'src/assets/images/events-images/2025-12-24.jpg',
+		image: img20251224,
 		tag: 'INFORMATION',
+		instagram: 'https://www.instagram.com/p/DSpMyZFDI4Z/',
+		facebook: 'https://www.facebook.com/photo?fbid=122266477136076747&set=a.122120223686076747',
 		calendar: false,
 	},
 	{
@@ -41,8 +53,10 @@ export const events: EventItem[] = [
 		Link: https://discord.gg/2UvEkYtsSx`,
 		date: '2025-12-22',
 		place: 'WFiIS, Łódź',
-		image: 'src/assets/images/events-images/2025-12-22.jpg',
+		image: img20251222,
 		tag: 'INFORMATION',
+		instagram: 'https://www.instagram.com/p/DSkQ8qWDnmO/',
+		facebook: 'https://www.facebook.com/photo?fbid=122266243496076747&set=a.122120223686076747',
 		calendar: false,
 	},
 	{
@@ -56,8 +70,10 @@ export const events: EventItem[] = [
 		Wpadajcie, żeby wspólnie zamknąć ten rok!`,
 		date: '2025-12-17',
 		place: 'WFiIS, Łódź',
-		image: 'src/assets/images/events-images/2025-12-18.jpg',
+		image: img20251218,
 		tag: 'MEETING',
+		instagram: 'https://www.instagram.com/p/DSXY90ZCC35/',
+		facebook: 'https://www.facebook.com/photo?fbid=122265606152076747&set=a.122120223686076747',
 		calendar: true,
 		startDate: '2025-12-18',
 		endDate: '2025-12-18',
@@ -71,8 +87,10 @@ export const events: EventItem[] = [
 		Mieliśmy okazję być tam, reprezentować "Artefakty" i po prostu cieszyć się atmosferą akademickiej wspólnoty, a także udzielić kilku wywiadów. ✨ Tak jak w przypadku ŁDI – po małym poślizgu czasowym wracamy do Was z fotkami i wspomnieniami, bo działo się naprawdę sporo! Dziękujemy organizatorom i wszystkim, z którymi mogliśmy zbić pionę. 🙌`,
 		date: '2025-12-16',
 		place: 'BUŁ, Łódź',
-		image: 'src/assets/images/events-images/2025-12-16.jpg',
+		image: img20251216,
 		tag: 'INFORMATION',
+		instagram: 'https://www.instagram.com/p/DSU0KgXFPMp/',
+		facebook: 'https://www.facebook.com/photo?fbid=122265248948076747&set=a.122120223686076747',
 		calendar: false,
 	},
 	{
@@ -83,8 +101,10 @@ export const events: EventItem[] = [
 		Do zobaczenia na kolejnych edycjach!`,
 		date: '2025-12-14',
 		place: 'WMiI, Łódź',
-		image: 'src/assets/images/events-images/2025-12-14.jpg',
+		image: img20251214,
 		tag: 'INFORMATION',
+		instagram: 'https://www.instagram.com/p/DSPqoVUjZ-e/',
+		facebook: 'https://www.facebook.com/photo?fbid=122264948906076747&set=a.122120223686076747',
 		calendar: false,
 	},
 	{
@@ -98,8 +118,10 @@ export const events: EventItem[] = [
 		Bardzo cieszymy się z zaufania, jakim nas obdarzyliście! ❤️ To dla nas ogromne wyróżnienie, ale też wyzwanie. Obiecujemy, że postaramy się o dalszy rozwój koła, ciekawe warsztaty i jeszcze więcej GameDevowej zajawki. Trzymajcie za nas kciuki! ✊`,
 		date: '2025-12-12',
 		place: 'WFiIS, Łódź',
-		image: 'src/assets/images/events-images/2025-12-12.jpg',
+		image: img20251212,
 		tag: 'INFORMATION',
+		instagram: 'https://www.instagram.com/p/DSKhBy8lomt/',
+		facebook: 'https://www.facebook.com/photo?fbid=122264629424076747&set=a.122120223686076747',
 		calendar: false,
 	},
 	{
@@ -115,8 +137,10 @@ export const events: EventItem[] = [
 		Link: https://discord.gg/2UvEkYtsSx`,
 		date: '2025-12-10',
 		place: 'MS Teams',
-		image: 'src/assets/images/events-images/2025-12-11.jpg',
+		image: img20251211,
 		tag: 'MEETING',
+		instagram: 'https://www.instagram.com/p/DSFXZwPAccz/',
+		facebook: 'https://www.facebook.com/photo?fbid=122264289656076747&set=a.122120223686076747',
 		calendar: true,
 		startDate: '2025-12-11',
 		endDate: '2025-12-11',
@@ -135,8 +159,10 @@ export const events: EventItem[] = [
 		📌 Szczegóły: 📅 Termin: 4 grudnia (czwartek) ⏰ Godzina: 18:00 📍 Miejsce: WFiIS UŁ (konkretną salę podamy na naszym Discordzie)`,
 		date: '2025-12-03',
 		place: 'WFiIS, Łódź',
-		image: 'src/assets/images/events-images/2025-12-04.jpg',
+		image: img20251204,
 		tag: 'WORKSHOP',
+		instagram: 'https://www.instagram.com/p/DRzsGsPFX8C/',
+		facebook: 'https://www.facebook.com/photo?fbid=122263158704076747&set=a.122120223686076747',
 		calendar: true,
 		startDate: '2025-12-04',
 		endDate: '2025-12-04',
@@ -149,8 +175,10 @@ export const events: EventItem[] = [
 		description: 'Przygotujcie się, bo w Artefaktach nadchodzą zmiany! 🚀 Odświeżamy naszą szatę graficzną, ale też reaktywujemy nasze sociale, żeby być z Wami w stałym kontakcie. Szykujcie się na wizualny level up i większą dawkę contentu na naszych socialach. Bądźcie czujni – efekty ujawnimy już za chwilę! ⏳',
 		date: '2025-11-28',
 		place: 'WFiIS, Łódź',
-		image: 'src/assets/images/events-images/2025-11-28.jpg',
+		image: img20251128,
 		tag: 'INFORMATION',
+		instagram: 'https://www.instagram.com/p/DRmd6caAIAb/',
+		facebook: 'https://www.facebook.com/photo/?fbid=122262453620076747&set=a.122120223686076747',
 		calendar: false,
 	}
 ]

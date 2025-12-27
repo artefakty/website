@@ -3,8 +3,6 @@ import styles from '../styles/Events.module.css'
 import EventCard from '../components/events/EventCard'
 import { events } from '../data/events'
 
-/* TODO: Poprawić readMoreLink tzn. albo ładować dynamicznie w komponencie, albo dodawać nową stronę */
-
 const Events = () => {
   return (
     <>

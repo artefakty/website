@@ -3,6 +3,7 @@ import MainLayout from './components/layout/MainLayout'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Events from './pages/Events'
+import EventShowMore from './components/events/EventShowMore'
 import Contact from './pages/Contact'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/events/:id" element={<EventShowMore />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </MainLayout>

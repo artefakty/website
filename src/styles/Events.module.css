@@ -279,6 +279,210 @@
 	width: 100%;
 }
 
+.eventPage .sectionInner {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 20px;
+	padding: 0 40px;
+}
+
+.eventPage .sectionTitle {
+	font-size: 28px;
+	text-align: left;
+	max-width: none;
+}
+
+.eventPage .sectionMeta {
+	align-items: flex-start;
+}
+
+.eventPage .sectionDivider {
+	width: 220px;
+	height: 4px;
+	background-color: #ce181e;
+	margin: 8px 0 12px 0;
+}
+
+.eventDateBlock {
+	text-align: right;
+}
+
+.eventDateBlock .eventUpdateLabel {
+	font-size: 12px;
+	color: #666;
+	margin-bottom: 6px;
+}
+
+.eventDateBlock .eventDate {
+	font-weight: 700;
+}
+
+.eventContent .sectionInner {
+	padding: 0 40px;
+}
+
+.eventContentBox {
+	background: #fff;
+	padding: 24px;
+	border-radius: 6px;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03);
+}
+
+.eventHeroImage img {
+	width: 100%;
+	height: auto;
+	border-radius: 6px;
+	display: block;
+}
+
+.eventParagraph {
+	margin: 0 0 1rem;
+	line-height: 1.6;
+	color: #222;
+}
+
+.eventTextCentered {
+	text-align: center;
+	padding: 18px 12px 28px;
+}
+
+.eventParagraphCentered {
+	margin: 0 0 1.2rem;
+	line-height: 1.8;
+	color: #222;
+	font-size: 18px;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.socialButtons {
+	display: flex;
+	gap: 10px;
+	margin-top: 16px;
+}
+
+.socialButtonsCentered {
+	display: flex;
+	gap: 12px;
+	justify-content: center;
+	margin-top: 18px;
+}
+
+.readMoreButton.yellow, .readMoreButton.yellow span {
+	background: #FFD65A;
+	color: #000;
+}
+
+.readMoreButton.yellow {
+	padding: 12px 24px;
+	border-radius: 6px;
+	font-weight: 600;
+}
+
+.centeredBackButton {
+	display: flex;
+	justify-content: center;
+	margin-top: 24px;
+}
+
+.backButtonLarge {
+	background: #ce181e;
+	color: #fff;
+	padding: 12px 36px;
+	border-radius: 12px;
+}
+
+/* Header grid */
+.eventHeaderGrid {
+	display: grid;
+	grid-template-columns: 220px 1fr;
+	align-items: start;
+	gap: 24px;
+	width: 100%;
+}
+
+.eventDateCol {
+	padding-left: 8px;
+}
+
+.eventUpdateLabel {
+	font-size: 12px;
+	color: #666;
+	margin-bottom: 8px;
+}
+
+.eventDate {
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.eventTitleCol {
+	text-align: left;
+}
+
+.eventBreadcrumb {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #333;
+	margin-bottom: 6px;
+}
+
+.eventMainTitle {
+	font-size: 44px;
+	margin: 6px 0 12px 0;
+	line-height: 1.05;
+}
+
+.eventPlace {
+	color: #333;
+	margin-top: 12px;
+}
+
+.eventCardDetail {
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
+}
+
+.eventThumb img {
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 6px;
+}
+
+.eventTextArea {
+	flex: 1;
+	text-align: center;
+}
+
+.socialButtons {
+	justify-content: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+	.eventHeaderGrid {
+		grid-template-columns: 1fr;
+	}
+	.eventDateCol {
+		order: -1;
+		padding-left: 0;
+		margin-bottom: 8px;
+	}
+	.eventMainTitle {
+		font-size: 28px;
+	}
+	.eventThumb img {
+		width: 100px;
+		height: 100px;
+	}
+	.eventTextArea {
+		text-align: left;
+	}
+}
+
 @media screen and (max-width: 1200px) {
 	.packages {
 		padding: 40px 32px 80px;

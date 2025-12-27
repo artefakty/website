@@ -1,4 +1,5 @@
 import styles from '../../styles/Events.module.css';
+import { Link } from 'react-router-dom';
 import 'add-to-calendar-button';
 
 declare module 'react' {
@@ -104,9 +105,9 @@ const EventCard = ({
           <div className={styles.eventFooter}>
           <div className={styles.date}>{date}</div>
             {readMoreLink ? (
-              <a href={readMoreLink} className={styles.readMoreButton}>
+              <Link to={readMoreLink} className={styles.readMoreButton}>
                 <span className={styles.readMore}>Czytaj dalej</span>
-              </a>
+              </Link>
             ) : (
               <div className={styles.readMoreButton}>
                 <span className={styles.readMore}>Czytaj dalej</span>

@@ -19,6 +19,10 @@ declare module 'react' {
         inline?: boolean;
         listStyle?: string;
         buttonStyle?: string;
+        hideTextLabelButton?: boolean;
+        buttonsList?: boolean;
+        lightMode?: string;
+        language?: string;
       };
     }
   }

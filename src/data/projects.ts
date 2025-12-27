@@ -2,6 +2,7 @@ import imgFortress from '../assets/images/projects-images/fortress.jpg';
 import imgBrozard from '../assets/images/projects-images/brozard.jpg';
 import imgSmokenSails from '../assets/images/projects-images/smokensails.jpg';
 import imgMirrorDash from '../assets/images/projects-images/mirrordash.jpg';
+import imgJustanormalblackcat from '../assets/images/projects-images/justanormalblackcat.jpg';
 import imgTheophiuchus from '../assets/images/projects-images/theophiuchus.jpg';
 import imgThelosttable from '../assets/images/projects-images/thelosttable.jpg';
 import imgUnipol from '../assets/images/projects-images/unipol.jpg';
@@ -26,7 +27,7 @@ export const projects: Project[] = [
       '',
     status: 'GRA',
     genre: 'Monopoly-like',
-    authors: 'Tobkubos',
+    authors: 'Tobkubos, Gradi',
     projectLink: 'https://tobkubos.itch.io/unipol',
     image: imgUnipol,
     date: '2025-05-14',
@@ -56,6 +57,18 @@ export const projects: Project[] = [
     date: '2025-04-27',
   },
   {
+    id: 'justanormalblackcat',
+    title: 'Just a normal black cat',
+    description:
+      'A game by Whale\'s Hand team:',
+    status: 'GRA, Game Jam',
+    genre: 'Puzzle, Platformer',
+    authors: 'Piotr Kosek, Konrad Karwowski, Marcin "Dybs" Dybaś, Michał Domarecki, Dawid Piech',
+    projectLink: 'https://shelim.itch.io/just-a-normal-black-cat',
+    image: imgJustanormalblackcat,
+    date: '2025-04-27',
+  },
+  {
     id: 'mirrordash',
     title: 'Mirror DASH!',
     description:
@@ -71,7 +84,7 @@ export const projects: Project[] = [
     id: 'smokensails',
     title: 'Smoke\'n\'Sails',
     description:
-      'Smoke\'n\'Sails is a roguelike game, where the player takes on the role of a wizard who fights against slimes. After each wave, the player has to allocate points to improve his battle skills. Additionally, he gets powerful artifacts every few waves. There is also a chance of a thunderstorm, which will reduce visibility. You can encounter up to 5 different slimes and their mutated versions as well!',
+      'Giera o wychillowanych Piratach. ARRRRRRRRRRR. Gra naszej produkcji czerpie inspirację z kultowej gry "Polybius". Głównym założeniem projektu było stworzenie rozrywki o przyjemnym, relaksującym charakterze, dostępnej do swobodnej zabawy. Zespół twórców, w składzie którego znaleźli się Adrian, Tobiasz, Jakub, Konrad oraz Michał, podjął wyzwanie tworzenia gry w ciągu zaledwie 24 godzin. Efektem pracy jest nasza gra, którą serdecznie zapraszamy do pobrania i eksploracji.',
     status: 'GRA, Game Jam',
     genre: 'Shooter',
     authors: 'Tobkubos, kuba11g, Kassjan, Gradi, mikeAl0ne',
@@ -96,7 +109,7 @@ export const projects: Project[] = [
     title: 'Fortress',
     description:
       'A game by HotPotato team',
-    status: 'GRA',
+    status: 'GRA, Game Jam',
     genre: 'STRATEGY, CARD GAME, SURVIVAL',
     authors: 'Piotr Szekalski (Lead / Art), Piotr Kosek (Coding), Grażyna Pietruszka (Art), Sebastian Brasiak (Art)',
     projectLink: 'https://shelim.itch.io/fortress',

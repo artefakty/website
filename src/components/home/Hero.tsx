@@ -10,7 +10,7 @@ const Hero = () => {
           <div className={styles.title}>
             <b className={styles.heroTitle}>Studenckie Koło Naukowe Artefakty!</b>
           </div>
-          <div className={styles.heroSubtitle}>Zrzeszamy osoby zainteresowane IT, robotyką i nie tylko.</div>
+          <div className={styles.heroSubtitle}>Kodujemy, projektujemy, gramy. Twoje miejsce w świecie GameDevu na Uniwersytecie Łódzkim.</div>
         </div>
         <div className={styles.buttons}>
           <Link to="/projects" className={styles.projectsButton}>

@@ -89,7 +89,7 @@ const EventShowMore: React.FC = () => {
         </div>
       </div>
 
-      <div className={styles.packages} style={{ paddingBottom: 0, marginTop: -80 }}>
+      <div className={styles.packages} style={{ paddingBottom: 0, paddingTop: 0 }}>
         <div className={styles.centeredBackButton}>
           <Link to="/events" className={`${styles.readMoreButton} ${styles.backButtonLarge}`}>
             <span className={styles.readMore}>Wróć do listy</span>

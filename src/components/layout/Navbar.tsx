@@ -34,7 +34,7 @@ const Navbar = () => {
             </div>
 
             <div className={`${styles.socialLinks} ${isMenuOpen ? styles.active : ''}`}>
-                <a href="https://www.facebook.com" aria-label="Facebook" onClick={handleNavClick}>
+                <a href="https://www.facebook.com/people/SKN-Artefakty/61552302410550/" aria-label="Facebook" onClick={handleNavClick}>
                     <FiFacebook className={styles.socialIcon} />
                 </a>
                 <a href="https://www.instagram.com/skn.artefakty/" aria-label="Instagram" onClick={handleNavClick}>

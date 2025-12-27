@@ -99,6 +99,8 @@
 	height: 220px;
 	position: relative;
 	object-fit: cover;
+	border: 5px;
+	border-radius: 10px 10px 0 0;
 }
 .frameItem {
 	width: 100%;

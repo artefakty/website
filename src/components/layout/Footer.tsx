@@ -58,7 +58,7 @@ const Footer = () => {
             <div className={styles.socialSection}>
               <div className={styles.sectionHeading}>Social Media</div>
               <div className={styles.socialIcons}>
-                <a href="https://www.facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/people/SKN-Artefakty/61552302410550/" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
                   <FiFacebook className={styles.footerIcon} />
                 </a>
                 <a href="https://www.instagram.com/skn.artefakty/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
@@ -73,7 +73,7 @@ const Footer = () => {
           <div className={styles.footerBottom}>
             <div className={styles.footerCopyright}>
               © {new Date().getFullYear()} SKN Artefakty<br/>
-              Made by: Ola Stopka, Jakub Gorządek
+              Made by: Aleksandra Stopka, Jakub Gorządek
             </div>
           </div>
         </div>

@@ -67,6 +67,7 @@
 	color: #f1dabf;
 	display: inline-block;
 	flex-shrink: 0;
+	padding-bottom: 50px;
 }
 
 .buttons {
@@ -777,7 +778,7 @@
 		gap: 32px;
 	}
 	.heroSubtitle {
-		font-size: 22px;
+		font-size: 20px;
 	}
 }
 

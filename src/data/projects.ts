@@ -17,7 +17,7 @@ export const projects: Project[] = [
     id: 'mirror-dash',
     title: 'MIRROR DASH',
     description:
-      'Gra została stworzona na 23h WFIIS GameJam 2024. Gra dla 2 graczy na podzielonym ekranie. Biegaj i buduj! Pamiętaj, żeby nie zostać zamienionym w stół!',
+      'Gra została stworzona na 23h WFIIS GameJaaaaaaa  aaaaaaaa a dad sa sadasasdasd da sad asda da aaaaa aaaaaadsa aaaaaa  aaaa aaa aaaaaaa aad sad asdassad  sadaaaaa   aaaaaaaaaaaa  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaam 2024. Gra dla 2 graczy na podzielonym ekranie. Biegaj i buduj! Pamiętaj, żeby nie zostać zamienionym w stół!',
     status: 'GRA Z GAME JAMU',
     genre: 'RACING',
     authors: 'Jan Kowalski, Anna Nowak, Jan Kowalski, Anna Nowak',

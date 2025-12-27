@@ -30,6 +30,8 @@ interface EventCardProps {
   date: string;
   readMoreLink?: string;
   calendar: boolean;
+  tag?: string;
+  place?: string;
   startDate?: string;
   endDate?: string;
   startTime?: string;
@@ -37,7 +39,24 @@ interface EventCardProps {
   location?: string;
 }
 
-const EventCard = ({ image, title, description, date, readMoreLink, calendar, startDate, endDate = startDate, startTime, endTime, location = 'Wydział Fizyki i Informatyki Stosowanej Uniwersytetu Łódzkiego, Pomorska 149/153, 90-236 Łódź, Polska' }: EventCardProps) => {
+const EventCard = ({
+  image,
+  title,
+  description,
+  date,
+  readMoreLink,
+  calendar,
+  tag,
+  place,
+  startDate,
+  endDate = startDate,
+  startTime,
+  endTime,
+  location = 'Wydział Fizyki i Informatyki Stosowanej Uniwersytetu Łódzkiego, Pomorska 149/153, 90-236 Łódź, Polska',
+}: EventCardProps) => {
+  const calendarLocation = place ?? location;
+  const visiblePlace = place ?? location;
+
   return (
     <div className={styles.eventCard}>
       <div className={styles.eventMedia}>
@@ -59,7 +78,7 @@ const EventCard = ({ image, title, description, date, readMoreLink, calendar, st
                         endDate={endDate}
                         endTime={endTime}
                         timeZone="Europe/Warsaw"
-                        location={location}
+                  location={calendarLocation}
                         options="'Apple','Google'"
                         listStyle="dropdown-static"
                         buttonStyle="round"
@@ -71,6 +90,12 @@ const EventCard = ({ image, title, description, date, readMoreLink, calendar, st
                 </div>
                 )}
           </div>
+          {(tag || visiblePlace) && (
+            <div className={styles.metaRow}>
+              {tag && <span className={styles.tag}>{tag}</span>}
+              {visiblePlace && <span className={styles.place}>{visiblePlace}</span>}
+            </div>
+          )}
             <div className={styles.titleDivider}></div>
             <div className={styles.descriptionBlock}>
             <div className={styles.description}>{description}</div>
@@ -78,13 +103,16 @@ const EventCard = ({ image, title, description, date, readMoreLink, calendar, st
         </div>
           <div className={styles.eventFooter}>
           <div className={styles.date}>{date}</div>
-            <div className={styles.readMoreButton}>
             {readMoreLink ? (
-              <a href={readMoreLink} className={styles.readMore}>Czytaj dalej</a>
+              <a href={readMoreLink} className={styles.readMoreButton}>
+                <span className={styles.readMore}>Czytaj dalej</span>
+              </a>
             ) : (
-              <div className={styles.readMore}>Czytaj dalej</div>
+              <div className={styles.readMoreButton}>
+                <span className={styles.readMore}>Czytaj dalej</span>
+              </div>
             )}
-          </div>
+          
         </div>
       </div>
     </div>

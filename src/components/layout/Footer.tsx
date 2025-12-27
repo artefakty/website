@@ -71,7 +71,10 @@ const Footer = () => {
             </div>
           </div>
           <div className={styles.footerBottom}>
-            <div className={styles.footerCopyright}>© {new Date().getFullYear()} SKN Artefakty.</div>
+            <div className={styles.footerCopyright}>
+              © {new Date().getFullYear()} SKN Artefakty<br/>
+              Made by: Ola Stopka, Jakub Gorządek
+            </div>
           </div>
         </div>
       </div>

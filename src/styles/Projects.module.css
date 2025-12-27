@@ -65,7 +65,7 @@
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 	gap: 24px;
-	padding: 24px 0 80px;
+	padding: 0 0 80px;
 }
 
 .project {
@@ -339,7 +339,7 @@
 
 @media screen and (max-width: 768px) {
 	.packages {
-		padding: 30px 24px 0;
+		padding: 24px 24px 0;
 	}
 
 	.sectionTitle {
@@ -354,7 +354,7 @@
 
 @media screen and (max-width: 480px) {
 	.packages {
-		padding: 20px 16px 0;
+		padding: 24px 16px 0;
 	}
 
 	.sectionTitle {

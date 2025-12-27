@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from '../../styles/Home.module.css'
 import jakubImg from '../../assets/images/jakub-gorzadek.jpg'
+import kacperImg from '../../assets/images/kacper-musial.jpg'
+import piotrImg from '../../assets/images/piotr-kosek.jpg'
 
 type Member = {
   name: string
@@ -10,9 +12,9 @@ type Member = {
 }
 
 const members: Member[] = [
+  { name: 'Kacper Musiał', role: 'Przewodniczący', initials: 'KM', img: kacperImg },
   { name: 'Jakub Gorządek', role: 'Wiceprzewodniczący', initials: 'JG', img: jakubImg },
-  { name: 'Kacper Musiał', role: 'Przewodniczący', initials: 'KM' },
-  { name: 'Piotr Kosek', role: 'Wiceprzewodniczący', initials: 'PK' },
+  { name: 'Piotr Kosek', role: 'Wiceprzewodniczący', initials: 'PK', img: piotrImg },
 ]
 
 const MentorCard = () => {

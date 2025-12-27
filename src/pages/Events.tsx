@@ -25,6 +25,8 @@ const Events = () => {
             title={event.title}
             description={event.description}
             date={event.date}
+            tag={event.tag}
+            place={event.place}
             location={event.place}
             readMoreLink={`/events/${event.id}`}
             calendar={!!event.calendar}
@@ -35,6 +37,7 @@ const Events = () => {
           />
         ))}
       </div>
+      <div className={styles.bottomSpacer}></div>
     </>
   )
 }

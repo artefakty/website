@@ -827,6 +827,9 @@
 	.aboutCard {
 		grid-template-columns: 1fr;
 	}
+	.heroSubtitle {
+		font-size: 18px;
+	}
 }
 
 @media screen and (max-width: 640px) {
@@ -874,5 +877,15 @@
 	}
 	.projectsButton, .eventsButton {
 		width: 100%;
+	}
+	.heroSubtitle {
+		font-size: 16px;
+	}
+	.eventsSection, .latestSection {
+		width: 100%;
+		max-width: 420px;
+		margin: 0 auto;
+		padding: 28px 16px 36px;
+		box-sizing: border-box;
 	}
 }

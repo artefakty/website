@@ -60,7 +60,7 @@ export const projects: Project[] = [
     id: 'justanormalblackcat',
     title: 'Just a normal black cat',
     description:
-      'A game by Whale\'s Hand team:',
+      'Co może cię spotkać jeżeli zajdziesz za skórę złej kobiecie? Która w dodatku jest wiedźmą? Wciel się w czarnego kota i zrób to co koty lubią najbardziej: przebiegać drogę nieszczęśnikom.',
     status: 'GRA, Game Jam',
     genre: 'Puzzle, Platformer',
     authors: 'Piotr Kosek, Konrad Karwowski, Marcin "Dybs" Dybaś, Michał Domarecki, Dawid Piech',
@@ -108,7 +108,7 @@ export const projects: Project[] = [
     id: 'fortress',
     title: 'Fortress',
     description:
-      'A game by HotPotato team',
+      'Relaksacyjna gra o budowie królestwa na mapie heksów o obronie go przed falami przeciwników. Całość oparta o karty i podana w przystępny sposób.',
     status: 'GRA, Game Jam',
     genre: 'STRATEGY, CARD GAME, SURVIVAL',
     authors: 'Piotr Szekalski (Lead / Art), Piotr Kosek (Coding), Grażyna Pietruszka (Art), Sebastian Brasiak (Art)',

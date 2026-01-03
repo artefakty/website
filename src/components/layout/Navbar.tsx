@@ -2,7 +2,7 @@ import styles from '../../styles/Navbar.module.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FiFacebook, FiInstagram, FiMenu, FiX } from "react-icons/fi";
-import { FaDiscord } from "react-icons/fa";
+import { TbBrandDiscord } from "react-icons/tb";
 import logo from '../../assets/icons/logo-with-name.svg';
 
 const Navbar = () => {
@@ -41,7 +41,7 @@ const Navbar = () => {
                     <FiInstagram className={styles.socialIcon} />
                 </a>
                 <a href="https://discord.gg/2UvEkYtsSx" aria-label="Discord" onClick={handleNavClick}>
-                    <FaDiscord className={styles.socialIcon} />
+                    <TbBrandDiscord className={styles.socialIcon} />
                 </a>
             </div>
         </div>

@@ -7,6 +7,7 @@ import img20251216 from '../assets/images/events-images/2025-12-16.jpg'
 import img20251218 from '../assets/images/events-images/2025-12-18.jpg'
 import img20251222 from '../assets/images/events-images/2025-12-22.jpg'
 import img20251224 from '../assets/images/events-images/2025-12-24.jpg'
+import img20260103 from '../assets/images/events-images/2026-01-03.jpg'
 
 export type EventItem = {
 	id: string
@@ -28,12 +29,29 @@ export type EventItem = {
 
 export const events: EventItem[] = [
 	{
+		id: '2026-01-03-hejka-studenci',
+		title: 'Hejka Studenci! 👋',
+		description: `Mamy to! Nasza oficjalna strona internetowa właśnie wystartowała w sieci! 🌐 Od teraz całą naszą działalność znajdziecie w jednym, przejrzystym miejscu pod adresem: 👉 skn-artefakty.pl
+		Strona to efekt ciężkiej pracy i talentu naszej ekipy. Projekt i wykonanie to zasługa naszej członkini Aleksandry Stopki oraz wiceprzewodniczącego Jakuba Gorządka. Wielkie brawa dla nich! 👏
+		Co znajdziecie na stronie? 🎮 Nasze Projekty – portfolio gier i aplikacji, które tworzymy. 📅 Wydarzenia – archiwum i zapowiedzi tego, co robimy na uczelni. 📍 Lokalizacja – mapka, która doprowadzi Was prosto do naszej sali. 📝 Formularz kontaktowy – najszybsza droga, żeby do nas napisać, zapytać o rekrutację lub współpracę.
+		Wbijajcie, testujcie i dajcie znać, jak Wam się podoba!
+		Zarząd SKN Artefakty 🐉`,
+		date: '2026-01-03',
+		place: 'WFiIS, Łódź',
+		image: img20260103,
+		tag: 'INFORMATION',
+		instagram: 'https://www.instagram.com/p/DTDKfGHjzUu/',
+		facebook: 'https://www.facebook.com/photo?fbid=122267847992076747&set=a.122120223686076747',
+		calendar: false,
+	},
+	{
 		id: '2025-12-24-hejka-studenci',
 		title: 'Hejka Studenci! Wszystkiego Najlepszego z okazji Świąt!🎄✨',
 		description: `Odłóżcie klawiatury i spędźcie te dni razem z rodziną! ⌨️
 		Pamiętajcie że w Święta bug się rodzi, kod truchleje, choć nie w biosie osadzony - segfault krzepnie, flash ciemnieje - backtrace będzie nieskończony! ✨
 		Odpocznijcie, nabierzcie nowych pomysłów i szerszego spojrzenia na to co robicie na co dzień. Niech to będzie czas dla was i waszych rodzin. ✨
-		I widzimy się oczywiście po nowym roku! 🎆👋`,
+		I widzimy się oczywiście po nowym roku! 🎆👋
+		Zarząd SKN Artefakty 🐉`,
 		date: '2025-12-24',
 		place: 'WFiIS, Łódź',
 		image: img20251224,
@@ -50,7 +68,8 @@ export const events: EventItem[] = [
 		Będzie o tworzeniu gier, kreatywności i ludziach, którzy tworzą ten klimat.
 		📍 Gdzie nas znaleźć? Nasza baza główna to niezmiennie Wydział Fizyki i Informatyki Stosowanej UŁ. Wpadajcie na naszego discorda po więcej informacji, a w międzyczasie śledźcie nasze pozostałe kanały, bo dopiero się rozkręcamy! 🚀
 		❤️ Jeśli chcesz dołączyć do naszego koła, wpadnij na nasz serwer i wypełnij formularz!
-		Link: https://discord.gg/2UvEkYtsSx`,
+		Link: https://discord.gg/2UvEkYtsSx
+		Zarząd SKN Artefakty 🐉`,
 		date: '2025-12-22',
 		place: 'WFiIS, Łódź',
 		image: img20251222,
@@ -67,7 +86,8 @@ export const events: EventItem[] = [
 		Obecność pizzy nie jest jeszcze pewna na 100%, ale jesteśmy dobrej myśli! W wariancie awaryjnym (gdyby jednak się nie udało), po pokazie projektów skoczymy wszyscy zintegrować się do Hell's Kitchen niedaleko naszego wydziału.
 		📌 Szczegóły: 📅 Termin: 18 grudnia (czwartek) ⏰ Godzina: 18:00
 		📍 Miejsce: Dolna część naszego wydziału (przestrzeń przed bufetem)
-		Wpadajcie, żeby wspólnie zamknąć ten rok!`,
+		Wpadajcie, żeby wspólnie zamknąć ten rok!
+		Zarząd SKN Artefakty 🐉`,
 		date: '2025-12-17',
 		place: 'WFiIS, Łódź',
 		image: img20251218,
@@ -84,7 +104,8 @@ export const events: EventItem[] = [
 		id: '2025-12-16-hejka-studenci',
 		title: 'Hejka Studenci! 👋Rozliczanie listopadowych zawirowań i świętowania ciąg dalszy! 🎉',
 		description: `W naszym listopadowym kalendarzu nie mogło zabraknąć tak ważnego jubileuszu. 14 listopada 2025 wzięliśmy udział w wydarzeniu "80-lecie kół naukowych". 🎓 To był dla nas zaszczyt móc świętować ten piękny, okrągły jubileusz w gronie innych pasjonatów nauki z Łodzi.
-		Mieliśmy okazję być tam, reprezentować "Artefakty" i po prostu cieszyć się atmosferą akademickiej wspólnoty, a także udzielić kilku wywiadów. ✨ Tak jak w przypadku ŁDI – po małym poślizgu czasowym wracamy do Was z fotkami i wspomnieniami, bo działo się naprawdę sporo! Dziękujemy organizatorom i wszystkim, z którymi mogliśmy zbić pionę. 🙌`,
+		Mieliśmy okazję być tam, reprezentować "Artefakty" i po prostu cieszyć się atmosferą akademickiej wspólnoty, a także udzielić kilku wywiadów. ✨ Tak jak w przypadku ŁDI – po małym poślizgu czasowym wracamy do Was z fotkami i wspomnieniami, bo działo się naprawdę sporo! Dziękujemy organizatorom i wszystkim, z którymi mogliśmy zbić pionę. 🙌
+		Zarząd SKN Artefakty 🐉`,
 		date: '2025-12-16',
 		place: 'BUŁ, Łódź',
 		image: img20251216,
@@ -98,7 +119,8 @@ export const events: EventItem[] = [
 		title: 'Hejka Studenci! 👋 Listopadowych podsumowań ciąg dalszy! 🌪️',
 		description: `Zaczynamy od jednego z najważniejszych wydarzeń minionego miesiąca. Mieliśmy przyjemność wystawiać się na Łódzkich Dniach Informatyki, które odbywały się od 4 do 6 listopada 2025! 💻 To była niesamowita okazja, żeby poczuć puls branży IT i GameDevu w Łodzi. 🚀
 		Super było zobaczyć Was wszystkich! Wielkie dzięki dla każdego, kto podszedł do naszego stoiska, przybił piątkę i zamienił z nami słowo. 🤝 Miło było porozmawiać o Waszych zainteresowaniach i pasji do gier. Po całym tym listopadowym pędzie w końcu możemy na spokojnie powspominać ten świetny event. Dziękujemy za Waszą obecność i energię! ⚡
-		Do zobaczenia na kolejnych edycjach!`,
+		Do zobaczenia na kolejnych edycjach!
+		Zarząd SKN Artefakty 🐉`,
 		date: '2025-12-14',
 		place: 'WMiI, Łódź',
 		image: img20251214,
@@ -115,7 +137,8 @@ export const events: EventItem[] = [
 		🔸 Przewodniczący: Kacper Musiał
 		🔸 Wiceprzewodniczący: Piotr Kosek
 		🔸 Wiceprzewodniczący: Jakub Gorządek
-		Bardzo cieszymy się z zaufania, jakim nas obdarzyliście! ❤️ To dla nas ogromne wyróżnienie, ale też wyzwanie. Obiecujemy, że postaramy się o dalszy rozwój koła, ciekawe warsztaty i jeszcze więcej GameDevowej zajawki. Trzymajcie za nas kciuki! ✊`,
+		Bardzo cieszymy się z zaufania, jakim nas obdarzyliście! ❤️ To dla nas ogromne wyróżnienie, ale też wyzwanie. Obiecujemy, że postaramy się o dalszy rozwój koła, ciekawe warsztaty i jeszcze więcej GameDevowej zajawki. Trzymajcie za nas kciuki! ✊
+		Zarząd SKN Artefakty 🐉`,
 		date: '2025-12-12',
 		place: 'WFiIS, Łódź',
 		image: img20251212,
@@ -134,7 +157,9 @@ export const events: EventItem[] = [
 		📍 Miejsce: MS Teams
 		🔗 Gdzie znajdziecie link? Link do spotkania wrzucimy na nasz Discord około 10 minut przed startem. Bądźcie czujni!
 		❤️ Jeśli chcesz dołączyć do naszego koła, wpadnij na nasz serwer i wypełnij formularz!
-		Link: https://discord.gg/2UvEkYtsSx`,
+		Link: https://discord.gg/2UvEkYtsSx
+		Do usłyszenia! 
+		Zarząd SKN Artefakty 🐉`,
 		date: '2025-12-10',
 		place: 'MS Teams',
 		image: img20251211,
@@ -156,7 +181,8 @@ export const events: EventItem[] = [
 		🎓 Dla kogo są warsztaty? Skupiamy się na pracy wewnątrz naszej grupy, dlatego warsztaty kierujemy do członków koła (obecnych i tych, którzy chcą dołączyć!). Przypominamy, że zgodnie z zasadami, naszymi członkami mogą być wyłącznie studenci.
 		🆕 Wahasz się? Spokojnie, możecie dołączyć do nas na próbę, zobaczyć, jak działamy i czy ten klimat Wam pasuje. Wpadnijcie sprawdzić, czy to coś dla Was!
 		❤️ Jeśli chcesz dołączyć do naszego koła, wpadnij na nasz serwer i wypełnij formularz! Link: https://discord.gg/2UvEkYtsSx
-		📌 Szczegóły: 📅 Termin: 4 grudnia (czwartek) ⏰ Godzina: 18:00 📍 Miejsce: WFiIS UŁ (konkretną salę podamy na naszym Discordzie)`,
+		📌 Szczegóły: 📅 Termin: 4 grudnia (czwartek) ⏰ Godzina: 18:00 📍 Miejsce: WFiIS UŁ (konkretną salę podamy na naszym Discordzie)
+		Do zobaczenia! Zarząd SKN Artefakty 🐉`,
 		date: '2025-12-03',
 		place: 'WFiIS, Łódź',
 		image: img20251204,
@@ -172,7 +198,7 @@ export const events: EventItem[] = [
 	{
 		id: '2025-11-28-cos-sie-kroi',
 		title: '✨ Coś się kroi... ✨',
-		description: 'Przygotujcie się, bo w Artefaktach nadchodzą zmiany! 🚀 Odświeżamy naszą szatę graficzną, ale też reaktywujemy nasze sociale, żeby być z Wami w stałym kontakcie. Szykujcie się na wizualny level up i większą dawkę contentu na naszych socialach. Bądźcie czujni – efekty ujawnimy już za chwilę! ⏳',
+		description: `Przygotujcie się, bo w Artefaktach nadchodzą zmiany! 🚀 Odświeżamy naszą szatę graficzną, ale też  reaktywujemy nasze sociale, żeby być z Wami w stałym kontakcie. Szykujcie się na wizualny level up i większą dawkę contentu na naszych socialach. Bądźcie czujni – efekty ujawnimy już za chwilę! ⏳`,
 		date: '2025-11-28',
 		place: 'WFiIS, Łódź',
 		image: img20251128,

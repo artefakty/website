@@ -1,7 +1,7 @@
 import styles from '../../styles/Footer.module.css';
 import { Link } from 'react-router-dom';
 import { FiFacebook, FiInstagram, FiMail, FiMapPin } from "react-icons/fi";
-import { FaDiscord } from "react-icons/fa";
+import { TbBrandDiscord } from "react-icons/tb";
 import logoWithName from '../../assets/icons/logo-with-name.svg';
 import logoUL from '../../assets/icons/logo-ul.svg';
 import logoWFIS from '../../assets/icons/logo-ul-wfis.svg';
@@ -65,7 +65,7 @@ const Footer = () => {
                   <FiInstagram className={styles.footerIcon} />
                 </a>
                 <a href="https://discord.gg/2UvEkYtsSx" aria-label="Discord" target="_blank" rel="noopener noreferrer">
-                  <FaDiscord className={styles.footerIcon} />
+                  <TbBrandDiscord className={styles.footerIcon} />
                 </a>
               </div>
             </div>

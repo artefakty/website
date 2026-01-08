@@ -2,6 +2,7 @@ import imgFortress from '../assets/images/projects-images/fortress.jpg';
 import imgBrozard from '../assets/images/projects-images/brozard.jpg';
 import imgSmokenSails from '../assets/images/projects-images/smokensails.jpg';
 import imgMirrorDash from '../assets/images/projects-images/mirrordash.jpg';
+import imgShapeshifter from '../assets/images/projects-images/shapeshifter.jpg';
 import imgJustanormalblackcat from '../assets/images/projects-images/justanormalblackcat.jpg';
 import imgTheophiuchus from '../assets/images/projects-images/theophiuchus.jpg';
 import imgThelosttable from '../assets/images/projects-images/thelosttable.jpg';
@@ -69,13 +70,28 @@ export const projects: Project[] = [
     date: '2025-04-27',
   },
   {
+    id: 'shapeshifter',
+    title: 'Shapeshifter TD',
+    description:
+      `Tower Defense game with procedurally generating map!
+      - 10 different buildings!
+      - 5 enemies!
+      - unlimited map variants!`,
+    status: 'GRA',
+    genre: 'Tower Defense',
+    authors: 'Tobkubos',
+    projectLink: 'https://tobkubos.itch.io/shapeshifter',
+    image: imgShapeshifter,
+    date: '2024-10-24',
+  },
+  {
     id: 'mirrordash',
     title: 'Mirror DASH!',
     description:
       'Commision for 23h WFIIS GameJam. Game for 2 players on split screen. Run and Build! Remember to not be transformed into table!',
     status: 'GRA, Game Jam',
     genre: 'Racing',
-    authors: 'Tobkubos, kuba11g, Kassjan, Gradi',
+    authors: 'Tobkubos, kuba11g, Alexofrivia, Kassjan, Gradi',
     projectLink: 'https://tobkubos.itch.io/mirror-dash',
     image: imgMirrorDash,
     date: '2024-10-19',

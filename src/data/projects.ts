@@ -7,6 +7,8 @@ import imgJustanormalblackcat from '../assets/images/projects-images/justanormal
 import imgTheophiuchus from '../assets/images/projects-images/theophiuchus.jpg';
 import imgThelosttable from '../assets/images/projects-images/thelosttable.jpg';
 import imgUnipol from '../assets/images/projects-images/unipol.jpg';
+import imgDarkness from '../assets/images/projects-images/darkness.jpg';
+import imgHunter from '../assets/images/projects-images/hunter.jpg';
 
 export type Project = {
   id: string
@@ -21,6 +23,30 @@ export type Project = {
 }
 
 export const projects: Project[] = [
+  {
+    id: 'hunter',
+    title: 'Hunter',
+    description:
+      'VR game which put you literally in the driver seat of your own small space-craft in a galaxy torn by mercenary bands, smugglers and all kind of wrong-doers. Play on your favorite VR device, upgrade your ship, fight in 6-degree of freedom and try to keep you enemies busy',
+    status: 'Work-in-Progress',
+    genre: 'VR, Space Sim',
+    authors: 'Piotr Kosek',
+    projectLink: '',
+    image: imgHunter,
+    date: '-',
+  },
+  {
+    id: 'darkness',
+    title: 'Darkness',
+    description:
+      'Large-scale action fantasy RTS inspired by the pacing of Starcraft II. Train vast amount of units (up to 5,000 at once on the battlefield!), play as one of three factions, build your base and crush your opponents. Both single player and multi player (with state-of-the-art deterministic lockstep implementation) available',
+    status: 'Work-in-Progress',
+    genre: 'RTS',
+    authors: 'Piotr Kosek',
+    projectLink: '',
+    image: imgDarkness,
+    date: '-',
+  },
   {
     id: 'unipol',
     title: 'Unipol',

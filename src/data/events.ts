@@ -8,6 +8,7 @@ import img20251218 from '../assets/images/events-images/2025-12-18.jpg'
 import img20251222 from '../assets/images/events-images/2025-12-22.jpg'
 import img20251224 from '../assets/images/events-images/2025-12-24.jpg'
 import img20260103 from '../assets/images/events-images/2026-01-03.jpg'
+import img20260114 from '../assets/images/events-images/2026-01-14.jpg'
 
 export type EventItem = {
 	id: string
@@ -28,6 +29,27 @@ export type EventItem = {
 }
 
 export const events: EventItem[] = [
+	{
+		id: '2026-01-14-hejka-studenci',
+		title: 'Hejka Studenci i Pasjonaci! 👋',
+		description: `🔄 Reupload! Wdarł się mały błąd w matrixie (czytaj: w dacie), więc wrzucamy jeszcze raz. Wracamy na właściwą linię czasową z poprawnym terminem!
+		Zapraszamy na stacjonarną, łódzką edycję Global Game Jamu, która odbędzie się w Centrum Szkoleniowo-Konferencyjnym Uniwersytetu Łódzkiego! 🏢
+		To dla nas wyjątkowa chwila – po raz pierwszy gospodarzem łódzkiej edycji wydarzenia jest ekipa SKN Artefakty z Wydział Fizyki i Informatyki Stosowanej Uniwersytet Łódzki. 🚀
+		Tworzymy tę imprezę jako wydarzenie otwarte – od pasjonatów dla pasjonatów. Chcemy, by każdy znalazł tu swoje miejsce. Niezależnie od swojej roli, niezależnie od tego czy jesteś programistą, grafikiem, muzykiem, czy level designerem - niezależnie też od swojego doświadczenia, czy jesteś kimś kto zjadł już zęby na robieniu gier czy dopiero stawiasz swoje pierwsze kroki w jamowym gamedevie – czekamy właśnie na ciebie! 💻🎨🎵
+		🤝 Nie masz drużyny? Spokojnie! Nie musisz przychodzić z gotowym składem. Na miejscu możesz dołączyć do innych, poznać świetnych ludzi i wymienić się wiedzą.
+		⚠️ Uwaga: Wymagamy chociaż podstawowych umiejętności w swojej dziedzinie – podczas eventu skupiamy się na tworzeniu, więc nie będzie czasu na naukę od zera.
+		A, czy wspomnieliśmy już, że będzie darmowa pizza? 🍕😋
+		Przyjdź, stwórz grę i zbuduj cenne doświadczenia! ✅ Wstęp jest darmowy. 📝 Obowiązują wcześniejsze zapisy (datę startu rejestracji podamy wkrótce!).
+		Do zobaczenia przy kodzie!
+		Zarząd SKN Artefakty 🐉`,
+		date: '2026-01-14',
+		place: 'WFiIS, Łódź',
+		image: img20260114,
+		tag: 'INFORMATION',
+		instagram: 'https://www.instagram.com/p/DTfu5WPDeZj/',
+		facebook: 'https://www.facebook.com/photo/?fbid=122269292588076747&set=a.122120223686076747',
+		calendar: false,
+	},
 	{
 		id: '2026-01-03-hejka-studenci',
 		title: 'Hejka Studenci! 👋',

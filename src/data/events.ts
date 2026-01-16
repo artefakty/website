@@ -40,6 +40,7 @@ export const events: EventItem[] = [
 		⚠️ Uwaga: Wymagamy chociaż podstawowych umiejętności w swojej dziedzinie – podczas eventu skupiamy się na tworzeniu, więc nie będzie czasu na naukę od zera.
 		A, czy wspomnieliśmy już, że będzie darmowa pizza? 🍕😋
 		Przyjdź, stwórz grę i zbuduj cenne doświadczenia! ✅ Wstęp jest darmowy. 📝 Obowiązują wcześniejsze zapisy (datę startu rejestracji podamy wkrótce!).
+		https://globalgamejam.org/jam-sites/2026/unilodzki-jam
 		Do zobaczenia przy kodzie!
 		Zarząd SKN Artefakty 🐉`,
 		date: '2026-01-14',
@@ -48,7 +49,11 @@ export const events: EventItem[] = [
 		tag: 'INFORMATION',
 		instagram: 'https://www.instagram.com/p/DTfu5WPDeZj/',
 		facebook: 'https://www.facebook.com/photo/?fbid=122269292588076747&set=a.122120223686076747',
-		calendar: false,
+		calendar: true,
+		startDate: '2026-01-30',
+		endDate: '2026-02-01',
+		startTime: '15:00',
+		endTime: '19:30',
 	},
 	{
 		id: '2026-01-03-hejka-studenci',
